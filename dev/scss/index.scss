@@ -1,0 +1,12 @@
+@import './reset.scss';
+
+:root {
+    --white: #ffffff;
+    --black: #1E1E1E;
+    --green: #00E872;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+}
