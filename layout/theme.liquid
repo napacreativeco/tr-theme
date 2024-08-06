@@ -51,6 +51,7 @@
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
   
   {% render 'header' %}
+  {% render 'gradient-header' %}
 
   <main role="main">
     {{ content_for_layout }}

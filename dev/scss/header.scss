@@ -1,9 +1,80 @@
 header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .header-row {
+        padding: 4px var(--side-padding) 4px var(--side-padding);
+        display: grid;
+        grid-template-columns: 5fr 2fr 5fr;
+        width: 100%;
+    }
+
+    a {
+        transition: color 0.5s ease-in-out;
+        text-transform: uppercase;
+    }
+
+    .left {
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 40px;
+        }
+
+        a:hover {
+            color: var(--green);
+        }
+    }
 
     .center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        svg {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            cursor: pointer;
+        }
+
         svg path {
             fill: var(--white);
+            transition: all 0.5s ease-in-out;
         }
+
+        svg:hover path {
+            fill: var(--green);
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 40px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 40px;
+        }
+
+        a:hover {
+            color: var(--green);
+        }
+    }
+
+    .cart-count {
+        font-size: 48px;
+        margin-top: -4px;
     }
 
 }

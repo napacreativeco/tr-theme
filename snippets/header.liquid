@@ -1,7 +1,18 @@
 <header>
-    <div class="left"></div>
-    <div class="center">
-        {% render 'logo' %}
+    <div class="header-row">
+
+        <div class="left">
+            {% render 'nav--main' %}
+        </div>
+
+        <div class="center">
+            <a href='/'>{% render 'logo' %}</a>
+        </div>
+
+        <div class="right">
+            {% render 'nav--secondary' %}
+            {% render 'cart-count' %}
+        </div>
+
     </div>
-    <div class="right"></div>
 </header>

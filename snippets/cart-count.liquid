@@ -1,1 +1,10 @@
-<a href="/cart">{{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }} ({{ cart.total_price | money }})</a>
+<div class="cart-count">
+    <a href="/cart">
+        {% assign count = cart.item_count %}
+        {% if count < 10 %}
+            {% if count > 1 %}{{ '0' | escape }}{% endif %}{{ count }}
+        {% else %}
+            {{ count }}
+        {% endif %}
+    </a>
+</div>

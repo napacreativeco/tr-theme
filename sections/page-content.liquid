@@ -1,0 +1,26 @@
+{{ page.content }}
+
+{% schema %}
+    {
+      "name": "Page Content",
+      "tag": "section",
+      "class": "page-content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Page Content"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["*"]
+      }
+    }
+{% endschema %}
+    

@@ -1,0 +1,85 @@
+<div class="hero-row">
+    {% if section.settings.hero_type == 'GIF' %}
+        <div class="hero-gif">
+            {% for block in section.blocks %}
+                <div class="gif-slide">
+                    {{ block.settings.slide_image }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    {% if section.settings.hero_type == 'Slideshow' %}
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                {% for block in section.blocks %}
+                    <div class="swiper-slide">
+                        {{ block.settings.slide_image }}
+                    </div>
+                {% endfor %}
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            
+            <div class="swiper-controls">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+    {% endif %}
+</div>
+
+{% schema %}
+    {
+      "name": "Hero",
+      "tag": "section",
+      "class": "hero",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+            "type": "select",
+            "id": "hero_type",
+            "label": "Hero Type",
+            "default": "GIF",
+            "options": [
+                {
+                    "label": "GIF",
+                    "value": "GIF"
+                },
+                {
+                    "label": "Slideshow",
+                    "value": "Slideshow"
+                }
+            ]
+        }
+      ],
+      "blocks": [
+        {
+            "type": "slider",
+            "name": "Slide",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "slide_image",
+                    "label": "Slide"
+                }
+            ]
+
+        }
+      ],
+      "presets": [
+        {
+          "name": "Page Content"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["*"]
+      }
+    }
+{% endschema %}
