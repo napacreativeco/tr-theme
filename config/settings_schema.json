@@ -1,21 +1,3 @@
 [
-  {
-    "name": "Logo",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "site_logo",
-        "info": "The site logo. Preferred .svg format"
-      }
-    ]
-  },
-  {
-    "name": "Example setting",
-    "settings": [
-      {
-        "type": "header",
-        "content": "Example option"
-      }
-    ]
-  }
+
 ]
