@@ -5,7 +5,7 @@
       {
         "type": "image_picker",
         "id": "site_logo",
-        "label": "The Website Logo"
+        "info": "The site logo. Preferred .svg format"
       }
     ]
   },
