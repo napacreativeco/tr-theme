@@ -1,12 +1,37 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "wrapper": "div.contact-page",
-    "sections": {
-      "contact": {
-        "type": "contact"
+  "wrapper": "div.contact-page",
+  "sections": {
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "contact_wU6beF": {
+          "type": "contact",
+          "settings": {
+            "contact_type": "Booking (US)",
+            "contact_value": "Awesome Agency",
+            "contact_agent": "817neo",
+            "contact_url": "mailto:contact@throne.work"
+          }
+        }
+      },
+      "block_order": [
+        "contact_wU6beF"
+      ],
+      "settings": {
+        "title": ""
       }
-    },
-    "order": [
-      "contact"
-    ]
-  }
-  
+    }
+  },
+  "order": [
+    "contact"
+  ]
+}
