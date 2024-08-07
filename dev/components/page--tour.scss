@@ -1,0 +1,110 @@
+.tour-block {
+    margin: 0 0 60px 0;
+}
+
+.tour-page {
+    padding: 120px var(--side-padding) 20px var(--side-padding);
+
+    .tour-title {
+        margin: 0 0 14px 0;
+
+        h2 {
+            font-size: 28px;
+            color: var(--green);
+        }
+    }
+
+    .tour-dates {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        li {
+            display: grid;
+            grid-template-columns: 1fr 5fr 4fr 1fr 1fr;
+            align-items: flex-end;
+        }
+
+        .date {
+            font-family: var(--header-font);
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .flier-link {
+            cursor: pointer;
+            transition: color 0.5s ease-in-out;
+            text-transform: uppercase;
+        }
+
+        .flier-link:hover {
+            color: var(--green);
+        }
+
+        .tickets {
+            a {
+                background: var(--green);
+                color: var(--black);
+                border: var(--border-green);
+                border-radius: 50px;
+                padding: 4px 10px;
+                transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
+                text-transform: uppercase;
+            }
+
+            a:hover {
+                background: var(--black);
+                color: var(--green);
+            }
+        }
+    }
+}
+
+.tour-flier-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(6px);
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    .close-tour-overlay {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+
+        svg {
+            width: 30px;
+            height: 30px;
+
+            path { 
+                stroke: var(--white);
+                transition: stroke 0.5s ease-in-out;
+            }
+        }
+    }
+
+    .close-tour-overlay:hover {
+        svg {
+            path {
+                stroke: var(--green);
+            }
+        }
+    }
+
+    img {
+        width: auto;
+        max-width: 90vw;
+        height: auto;
+        max-height: 90vh;
+    }
+}

@@ -36,6 +36,10 @@ a {
     color: inherit;
 }
 
+main {
+    min-height: 100svh;
+}
+
 .gradient-header {
     /* Rectangle 26 */
     position: absolute;
@@ -53,4 +57,3 @@ a {
 @import './footer.scss';
 @import './cart-drawer.scss';
 @import './cart-drawer-item.scss';
-@import './tour-page.scss';

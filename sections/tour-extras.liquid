@@ -1,18 +1,23 @@
-<div class="close-tour-overlay">{% render 'icon--close' %}</div>
-<div class="flier-image-holder"></div>
+{{ 'page--tour.css' | asset_url | stylesheet_tag }}
+
+<div class="tour-flier-overlay">
+  <div class="close-tour-overlay">{% render 'icon--close' %}</div>
+  <div class="flier-image-holder"></div>
+</div>
+
 
 
 {% schema %}
     {
       "name": "Tour Extras",
       "tag": "section",
-      "class": "tour-flier-overlay",
+      "class": "tour-extras",
       "limit": 1,
       "settings": [
         {
           "type": "text",
-          "id": "tour_title",
-          "label": "Tour Title",
+          "id": "empty_field",
+          "label": "Empty Field",
           "info": "This section provides an overlay modal for the Tour Fliers. Don't delete."
         }
       ],
