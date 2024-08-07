@@ -1,9 +1,9 @@
 .tour-block {
     margin: 0 0 60px 0;
+    padding: 0px var(--side-padding) 0px var(--side-padding);
 }
 
 .tour-page {
-    padding: 120px var(--side-padding) 20px var(--side-padding);
 
     .tour-title {
         margin: 0 0 14px 0;
@@ -33,6 +33,10 @@
             font-size: 20px;
         }
 
+        .flier {
+            text-align: center;
+        }
+
         .flier-link {
             cursor: pointer;
             transition: color 0.5s ease-in-out;
@@ -44,6 +48,8 @@
         }
 
         .tickets {
+            text-align: right;
+
             a {
                 background: var(--green);
                 color: var(--black);
@@ -52,6 +58,7 @@
                 padding: 4px 10px;
                 transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
                 text-transform: uppercase;
+                display: inline-block;
             }
 
             a:hover {

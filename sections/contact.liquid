@@ -1,0 +1,53 @@
+{{ 'page--contact.css' | asset_url | stylesheet_tag }}
+
+<div class="contact-title">
+    <h1>{{ section.settings.title | default: 'Contact us' }}</h1>
+</div>
+
+{% schema %}
+    {
+      "name": "Contact Page",
+      "tag": "section",
+      "class": "contact-page",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+      ],
+      "blocks": [
+         {
+           "name": "Contact",
+           "type": "contact",
+           "settings": [
+             {
+               "type": "text",
+               "id": "contact_type",
+               "label": "Type"
+             },
+             {
+               "type": "text",
+               "id": "contact_value",
+               "label": "Contact Info"
+             },
+             {
+               "type": "url",
+               "id": "contact_url",
+               "label": "URL"
+             }
+           ]
+         }
+      ],
+      "presets": [
+        {
+          "name": "Contact Page"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["page"]
+      }
+    }
+    {% endschema %}
+    

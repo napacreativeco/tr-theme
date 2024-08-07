@@ -1,13 +1,110 @@
+.tour-hero {
+    margin: 0 0 40px 0;
+}
+
 .tour-hero--swiper {
 
     .swiper-slide {
         width: 100%;
+        min-height: 35vh;
         padding: 100px 0 40px 0;
         position: relative;
 
         .overlay {
             background: var(--black);
             color: var(--white);
+            position: absolute;
+            width: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 40px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+
+            h2 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 14px;
+            }
+            h3 {
+                font-size: 20px;
+            }
         }
+    }
+
+    .swiper-controls {
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background: var(--black);
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        padding: 0px 14px 0px 6px;
+        transition: padding 0.5s ease-in-out;
+
+        svg {
+            width: 8px;
+            height: 16px;
+
+            path { 
+                stroke: var(--white);
+                transition: stroke 0.5s ease-in-out;
+            }
+        }
+
+    }
+
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+        padding: 0px 20px 0px 6px;
+
+        svg {
+            path {
+                stroke: var(--green);
+            }
+        }
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+
+    .swiper-pagination {
+        bottom: 13px;
+        top: auto;
+        left: 0;
+        width: 100%;
+    }
+
+    .swiper-pagination-bullet {
+        opacity: 1;
+        border: var(--border-white);
+        background: transparent;
+        transition: border 0.5s ease-in-out;
+    }
+
+    .swiper-pagination-bullet:hover {
+        border: var(--border-green);
+    }
+
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: var(--green);
+        border: var(--border-green);
     }
 }

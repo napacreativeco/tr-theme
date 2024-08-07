@@ -1,0 +1,12 @@
+{
+    "wrapper": "div.contact-page",
+    "sections": {
+      "contact": {
+        "type": "contact"
+      }
+    },
+    "order": [
+      "contact"
+    ]
+  }
+  

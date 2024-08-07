@@ -41,3 +41,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.swiper-button-next, .swiper-button-prev {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	margin-top: 0;
+	color: inherit;
+}

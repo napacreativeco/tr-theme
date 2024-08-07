@@ -97,12 +97,28 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script>
-    const swiper = new Swiper('.swiper', {
+    const heroSwiper = new Swiper('.hero-swiper', {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
 
       // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      }
+    });
+
+    const tourSwiper = new Swiper('.tour-hero--swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
       pagination: {
         el: '.swiper-pagination',
         clickable: true
