@@ -9,8 +9,28 @@
 */
 {
   "current": {
+    "instagram": "https:\/\/www.instagram.com\/trauma.ray",
+    "facebook": "https:\/\/www.facebook.com\/traumaray\/",
+    "twitter": "https:\/\/x.com\/trauma_ray",
+    "bandcamp": "https:\/\/traumaray.bandcamp.com",
+    "spotify": "https:\/\/open.spotify.com\/artist\/7mhFqGccO5U4pn90mix9S1",
+    "apple": "https:\/\/music.apple.com\/us\/artist\/trauma-ray\/1436336712",
+    "youtube": "https:\/\/www.youtube.com\/channel\/UCc7RcaBe7xMnYXNw-yCq2Cw",
+    "tidal": "https:\/\/tidal.com\/browse\/artist\/10346680",
+    "twitch": "https:\/\/www.twitch.tv\/trauma_ray",
     "customer_layout": "theme",
-    "example_option": "option"
+    "example_option": "option",
+    "sections": {
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "title": ""
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Naked": {
