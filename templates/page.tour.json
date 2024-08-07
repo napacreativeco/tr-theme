@@ -1,11 +1,38 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "wrapper": "div.tour-page",
-    "sections": {
-        "tours": {
-            "type": "tour"
+  "wrapper": "div.tour-page",
+  "sections": {
+    "tours": {
+      "type": "tour",
+      "blocks": {
+        "tour_date_LkzCQy": {
+          "type": "tour_date",
+          "settings": {
+            "date": "08.04",
+            "title": "Trauma Ray, Band name, Band name",
+            "city": "San Francisco, California",
+            "flier": "shopify:\/\/shop_images\/blur-1.jpg",
+            "tickets": ""
+          }
         }
-    },
-    "order": [
-        "tours"
-    ]
+      },
+      "block_order": [
+        "tour_date_LkzCQy"
+      ],
+      "settings": {
+        "tour_title": ""
+      }
+    }
+  },
+  "order": [
+    "tours"
+  ]
 }
