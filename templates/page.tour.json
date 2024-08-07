@@ -22,17 +22,50 @@
             "flier": "shopify:\/\/shop_images\/blur-1.jpg",
             "tickets": ""
           }
+        },
+        "tour_date_tNr4Kq": {
+          "type": "tour_date",
+          "settings": {
+            "date": "08.05",
+            "title": "Trauma Ray, Band name, Band name",
+            "city": "San Francisco, California",
+            "flier": "shopify:\/\/shop_images\/blur-1.jpg",
+            "tickets": ""
+          }
         }
       },
       "block_order": [
-        "tour_date_LkzCQy"
+        "tour_date_LkzCQy",
+        "tour_date_tNr4Kq"
       ],
       "settings": {
-        "tour_title": ""
+        "tour_title": "Headliner 2024"
+      }
+    },
+    "tour_PNyfd7": {
+      "type": "tour",
+      "blocks": {
+        "tour_date_HAEwqW": {
+          "type": "tour_date",
+          "settings": {
+            "date": "10.12",
+            "title": "Trauma Ray, Band name",
+            "city": "New York City, New York",
+            "flier": "shopify:\/\/shop_images\/guitar.jpg",
+            "tickets": ""
+          }
+        }
+      },
+      "block_order": [
+        "tour_date_HAEwqW"
+      ],
+      "settings": {
+        "tour_title": "Second Tour"
       }
     }
   },
   "order": [
-    "tours"
+    "tours",
+    "tour_PNyfd7"
   ]
 }
