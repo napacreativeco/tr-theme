@@ -1,4 +1,28 @@
-<div class="tour-flier-overlay">
-    <div class="close-tour-overlay">{% render 'icon--close' %}</div>
-    <div class="flier-image-holder"></div>
-</div>
+<div class="close-tour-overlay">{% render 'icon--close' %}</div>
+<div class="flier-image-holder"></div>
+
+
+{% schema %}
+    {
+      "name": "Tour Extras",
+      "tag": "section",
+      "class": "tour-flier-overlay",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "tour_title",
+          "label": "Tour Title",
+          "info": "This section provides an overlay modal for the Tour Fliers. Don't delete."
+        }
+      ],
+      "presets": [
+        {
+          "name": "Tour Extras"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["page"]
+      }
+    }
+{% endschema %}
