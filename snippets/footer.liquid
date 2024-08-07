@@ -29,7 +29,7 @@
         var chosen = jQuery(this).attr('data-flier');
         var chosenAlt = jQuery(this).attr('data-alt');
 
-        jQuery('.tour-flier-overlay').css({
+        jQuery(this).find('.tour-flier-overlay').css({
             display: 'flex'
         });
         jQuery('.flier-image-holder').html('<img src="'+ chosen +'" alt="'+ chosenAlt +'" />');

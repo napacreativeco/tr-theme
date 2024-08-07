@@ -62,10 +62,14 @@
       "settings": {
         "tour_title": "Second Tour"
       }
+    },
+    "extras": {
+      "type": "tour-extras"
     }
   },
   "order": [
     "tours",
-    "tour_PNyfd7"
+    "tour_PNyfd7",
+    "extras"
   ]
 }
