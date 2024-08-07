@@ -1,0 +1,47 @@
+.tour-page {
+
+    .tour-dates {
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        li {
+            display: grid;
+            grid-template-columns: 1fr 5fr 4fr 1fr 1fr;
+            align-items: flex-end;
+        }
+
+        .date {
+            font-family: var(--header-font);
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .flier-link {
+            cursor: pointer;
+            transition: color 0.5s ease-in-out;
+        }
+
+        .flier-link:hover {
+            color: var(--green);
+        }
+
+        .tickets {
+            a {
+                background: var(--green);
+                color: var(--black);
+                border: var(--border-green);
+                border-radius: 50px;
+                padding: 4px 6px;
+                transition: all 0.5s ease-in-out;
+            }
+
+            a:hover {
+                background: var(--black);
+                color: var(--green);
+            }
+        }
+    }
+}

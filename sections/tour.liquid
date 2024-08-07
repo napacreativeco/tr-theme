@@ -1,0 +1,100 @@
+<div class="tour-wrapper">
+
+    {% if section.settings.tour_title %}
+        <div class="tour-title">
+            <h2>
+                {{ section.settings.tour_title }}
+            </h2>
+        </div>
+    {% endif %}
+
+    <div class="tour-dates">
+        <ul>
+            {% for block in section.blocks %}
+                <li class="tour-date">
+                    <div class="date">
+                        {{ block.settings.date }}
+                    </div>
+                    <div class="title">
+                        {{ block.settings.title }}
+                    </div>
+                    <div class="city">
+                        {{ block.settings.city }}
+                    </div>
+                    <div class="flier">
+                        <span class="flier-link" data-flier="{{ block.settings.flier | image_url: width: 900 }}" data-alt="{{ block.settings.flier.alt }}">
+                            {{ 'Flier' | escape }}
+                        </span>
+                    </div>
+                    <div class="tickets">
+                        <a href="{{ block.settings.tickets }}" title="{{ 'Tickets' | escape }}">
+                            {{ 'Tickets' | escape }}
+                        </a>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="tour-flier-overlay">
+    <div class="close-tour-overlay">{% render 'icon--close' %}</div>
+    <div class="flier-image-holder"></div>
+</div>
+
+{% schema %}
+    {
+      "name": "Tour",
+      "tag": "section",
+      "class": "tour-block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tour_title",
+          "label": "Tour Title"
+        }
+      ],
+      "blocks": [
+         {
+           "name": "Tour Date",
+           "type": "tour_date",
+           "settings": [
+                {
+                    "type": "text",
+                    "id": "date",
+                    "label": "Date"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "city",
+                    "label": "City"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "flier",
+                    "label": "Flier"
+                },
+                {
+                    "type": "url",
+                    "id": "tickets",
+                    "label": "Tickets"
+                }
+           ]
+         }
+      ],
+      "presets": [
+        {
+          "name": "Tour"
+        }
+      ],
+      "enabled_on": {
+        "templates": ["page"]
+      }
+    }
+    {% endschema %}
+    

@@ -1,3 +1,41 @@
 <footer>
-    
+    <div class="left">
+        {% render 'nav--footer' %}
+    </div>
+    <div class="right">
+        {% render 'copyright' %}
+    </div>
 </footer>
+
+<script>
+    /*
+        Cart Modal
+    */
+    jQuery('.cart-count').on('click', function() {
+        jQuery('.cart-drawer').css('right', '10px');
+        jQuery('body').addClass('js-my-cart-open');
+    });
+    jQuery('.cart-drawer--close').on('click', function() {
+        jQuery('.cart-drawer').css('right', '-100%');
+        jQuery('body').removeClass('js-my-cart-open');
+    });
+</script>
+
+<script>
+    /*
+        Tour Modal
+    */
+    jQuery('.flier-link').on('click', function() {
+        var chosen = jQuery(this).attr('data-flier');
+        var chosenAlt = jQuery(this).attr('data-alt');
+
+        jQuery('.tour-flier-overlay').css({
+            display: 'flex'
+        });
+        jQuery('.flier-image-holder').html('<img src="'+ chosen +'" alt="'+ chosenAlt +'" />');
+
+        jQuery('.close-tour-overlay').on('click', function() {
+            jQuery('.tour-flier-overlay').css('display', 'none');
+        });
+    });
+</script>

@@ -29,7 +29,7 @@ exports.buildStyles = buildStyles;
 
 /* Components */
 function buildComponents() {
-    return gulp.src('./dev/scss/*.scss')
+    return gulp.src('./dev/components/*.scss')
       .pipe(sass().on('error', sass.logError))
       .pipe(autoprefixer())
       .pipe(cleanCSS({debug: true}, (details) => {

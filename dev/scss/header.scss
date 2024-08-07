@@ -3,6 +3,11 @@ header {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
 
     .header-row {
         padding: 4px var(--side-padding) 4px var(--side-padding);
@@ -17,7 +22,9 @@ header {
     }
 
     .left {
+
         ul {
+            padding: 4px 0 0 0;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -60,6 +67,7 @@ header {
         gap: 40px;
 
         ul {
+            padding: 4px 0 0 0;
             display: flex;
             flex-direction: row;
             align-items: flex-start;
@@ -74,7 +82,13 @@ header {
 
     .cart-count {
         font-size: 48px;
-        margin-top: -4px;
+        margin-top: -2px;
+        cursor: pointer;
+        transition: color 0.5s ease-in-out;
+    }
+
+    .cart-count:hover {
+        color: var(--green);
     }
 
 }

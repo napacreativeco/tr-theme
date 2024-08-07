@@ -8,6 +8,12 @@
     --green: #00E872;
 
     --side-padding: 24px;
+
+    --border-white: 1px solid var(--white);
+    --border-green: 1px solid var(--green);
+
+    --body-font: "Electrolize", sans-serif;
+    --header-font: "Chakra Petch", sans-serif;
 }
 
 body {
@@ -16,6 +22,7 @@ body {
     font-family: "Electrolize", sans-serif;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +45,12 @@ a {
     top: 0;
     right: 0;
     background: linear-gradient(180deg, var(--black) 0%, rgba(30, 30, 30, 0) 100%);
-    z-index: -1;
+    z-index: 1;
 }
 
+@import './grain.scss';
 @import './header.scss';
+@import './footer.scss';
+@import './cart-drawer.scss';
+@import './cart-drawer-item.scss';
+@import './tour-page.scss';

@@ -1,0 +1,54 @@
+<li class="item">
+    <div class="item-wrapper">
+    
+      <div class="left">
+        <img src="{{ item.image | image_url: width: '400' }}" alt="" width="100%" height="100%" />
+
+        <div class="remove-item">
+          <a data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0">
+            {{ 'Remove' | escape }}
+          </a>
+        </div>
+      </div>
+
+      <div class="right">
+
+        <div class="info-top">
+          <a class="title" href="{{ item.url }}" title="{{ item.title }}">
+            <h2>{{ item.product.title }}</h2>
+          </a>
+  
+          <ul class="options">
+            {% for o in item.options_with_values %}
+              <li>{{ o.value }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="info-bottom">
+          <div class="quantity-input">
+            <a data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | minus: 1 }}">
+                {{ '-' | escape }}
+            </a>
+
+            <input data-ajax-cart-quantity-input="{{ forloop.index }}" value="{{ item.quantity }}" name="updates[]" type="number"/>
+
+            <a data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity={{ item.quantity | plus: 1 }}">
+                {{ '+' | escape }}
+            </a>
+          </div>
+  
+          <div class="item-total">
+            {{ item.final_line_price | money_without_trailing_zeros }}
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="ajax-messages">
+      <div data-ajax-cart-messages="{{ item.key }}"></div>
+    </div>
+
+  </li>

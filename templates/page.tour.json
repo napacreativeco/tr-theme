@@ -1,0 +1,11 @@
+{
+    "wrapper": "div.tour-page",
+    "sections": {
+        "tours": {
+            "type": "tour"
+        }
+    },
+    "order": [
+        "tours"
+    ]
+}

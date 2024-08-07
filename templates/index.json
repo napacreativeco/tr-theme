@@ -8,7 +8,7 @@
 * ------------------------------------------------------------
 */
 {
-  "wrapper": "div#div_id.div_class[attribute-one=value]",
+  "wrapper": "div.homepage",
   "sections": {
     "hero_MhDK3C": {
       "type": "hero",

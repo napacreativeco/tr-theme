@@ -1,10 +1,9 @@
-<div class="cart-count">
-    <a href="/cart">
-        {% assign count = cart.item_count %}
-        {% if count < 10 %}
-            {% if count > 1 %}{{ '0' | escape }}{% endif %}{{ count }}
-        {% else %}
-            {{ count }}
-        {% endif %}
-    </a>
+<div class="cart-count" data-ajax-cart-toggle-class-button="js-my-cart-open">
+    {% if cart.item_count < 10 and cart.item_count > 0 %}
+        0<span data-ajax-cart-bind-state="cart.item_count">{{ cart.item_count }}</span>
+    {% elsif cart.item_count < 1 %}
+        <span data-ajax-cart-bind-state="cart.item_count">{{ cart.item_count }}</span>
+    {% else %}
+        <span data-ajax-cart-bind-state="cart.item_count">{{ cart.item_count }}</span>
+    {% endif %}
 </div>

@@ -1,13 +1,39 @@
+{{ 'component--hero.css' | asset_url | stylesheet_tag }}
+
+{% render 'gradient-header' %}
+
 <div class="hero-row">
+
     {% if section.settings.hero_type == 'GIF' %}
         <div class="hero-gif">
             {% for block in section.blocks %}
-                <div class="gif-slide">
-                    {{ block.settings.slide_image }}
+                <div class="gif-slide" data-count="{{ forloop.index0 }}">
+                    <img src="{{ block.settings.slide_image | image_url: width: 2200 }}" alt="{{ block.settings.slide_image.alt }}" width="100%" height="100%" />
                 </div>
             {% endfor %}
         </div>
+
+        <script>
+            var slides = jQuery('.gif-slide');
+            var slideIndex = 0;
+
+            jQuery(document).on('ready', function() {
+
+                jQuery(slides[slideIndex]).show();
+
+                setInterval(function() {
+                    jQuery(slides[slideIndex]).hide();
+
+                    slideIndex = (slideIndex + 1) % slides.length;
+
+                    jQuery(slides[slideIndex]).show();
+                }, 300);
+
+            });
+
+        </script>
     {% endif %}
+
     {% if section.settings.hero_type == 'Slideshow' %}
 
         <div class="swiper">
@@ -28,6 +54,7 @@
         </div>
 
     {% endif %}
+
 </div>
 
 {% schema %}

@@ -1,0 +1,194 @@
+{% comment %} Variants {% endcomment %}
+<div id="product-variants" class="variants {% if hide_default_title %} hidden{% endif %}">
+
+
+    {% comment %} 
+    *
+    * Hide 'Default' from Variants
+    *
+    {% endcomment %}
+    {% assign hide_default_title = false %}
+    {% if product.variants.size == 1 and product.variants.first.title contains 'Default' %}
+        {% assign hide_default_title = true %}
+    {% endif %}     
+
+    {% if product.variants.size >= 1 %} 
+
+        {% comment %} 
+        *
+        * Variant Scripts
+        *
+        {% endcomment %}
+        <script type="text/javascript" charset="utf-8">
+            jQuery(function() { 
+
+                //var first_variant_price = 
+                var first_variant_compare_at_price = jQuery("ul li input[type='radio']:checked").attr("data-compare-at-price") || ''; 
+
+                //jQuery(".price-field span").html(first_variant_price);
+
+                jQuery(".price-field del").html(first_variant_compare_at_price);
+
+                /*
+                * Radio Click
+                */
+                jQuery("input[type='radio']").on('click', function() {
+
+                    var variant_price = jQuery(this).attr("data-price");
+                    jQuery(".price-field span").html(variant_price);
+                    
+                    var variant_compare_at_price = jQuery(this).attr("data-compare-at-price") || '';
+                    jQuery(".price-field del").html(variant_compare_at_price);
+
+                    //  Update Price
+                    jQuery('.price-read').html(variant_price);
+
+                    // Update Image
+                    var variant_image = jQuery(this).attr('data-image');
+                    if (variant_image) {
+                        jQuery('#featured_image_element').attr('src', variant_image);
+                    }
+
+                    // Update Checked
+                    // if ( jQuery(this).find('input[type="radio"]').attr('checked') == false) {
+                    //     jQuery(this).find('input[type="radio"]').attr('checked', true);
+                    // } else {
+                    //     jQuery(this).find('input[type="radio"]').attr('checked', false);
+                    // }
+                    if ( jQuery(this).find('input[type="radio"]').attr('checked') == false) {
+                        jQuery('input[type="radio"]').attr('checked', false);
+                        jQuery(this).find('input[type="radio"]').attr('checked', true);
+                    }
+
+                });
+
+
+            });
+        </script>
+
+
+        {% comment %} 
+        *
+        * Variant List
+        *
+        {% endcomment %}
+        <ul class="variants-list">
+            {% assign found_available_variant = false %}
+
+            {% for variant in product.variants %}
+
+                {% if variant.available == true %}
+
+                    {% if found_available_variant == false %}
+                        {% assign found_available_variant = true %} 
+                    {% endif %} 
+
+                    {% comment %} 
+                    *
+                    * Available
+                    *
+                    {% endcomment %}
+                    <li class="switch-field">
+                        <label for="{{ variant.id }}">
+
+                            <input type="radio" 
+                                {% if variant.compare_at_price > variant.price %}
+                                    data-compare-at-price="{{ variant.compare_at_price | money_without_trailing_zeros }}"
+                                {% endif %} 
+                                data-price="{{ variant.price | money_without_trailing_zeros }}" 
+                                id="{{ variant.id }}" 
+                                value="{{ variant.id }}" 
+                                name="id"
+                                {% if forloop.first %}
+                                    checked="checked"
+                                {% endif %}
+                            />
+
+                            <span class="variant-name">
+                                {{ variant.title }}
+                            </span>
+
+                        </label>
+                    </li>
+                
+                {% else %}
+
+                    {% comment %} 
+                    *
+                    * Sold Out (Merch only)
+                    *
+                    
+                
+                    <li class="switch-field sold-out" style="pointer-events: none;">
+                        <label for="{{ variant.id }}">
+
+                            <input type="radio" 
+                                {% if variant.compare_at_price > variant.price %}
+                                    data-compare-at-price="{{ variant.compare_at_price | money_without_trailing_zeros }}"
+                                {% endif %} 
+                                data-price="{{ variant.price | money_without_trailing_zeros }}" 
+                                data-image="{% if variant.featured_image %} {{ variant.featured_image | image_url: width: 700 }} {% endif %}"
+                                id="{{ variant.id }}" 
+                                value="{{ variant.id }}" 
+                                name="id"
+                                {% if found_available_variant == false %}
+                                    {% assign found_available_variant = true %} 
+                                {% endif %} 
+                            />
+
+                            <span class="variant-name">
+                                {{ variant.title }}
+                            </span>
+
+                            <span class="soldout-label">
+                                {{ 'Sold Out' | escape }}
+                            </span>
+
+                        </label>
+                    </li>
+                    {% endcomment %}
+
+                {% endif %}
+
+                
+            {% endfor %}
+        </ul>
+
+    {% else %}
+
+        <ul>
+            {% for variant in product.variants %}
+                {% if variant.available == true %}
+                    <li class="switch-field">
+                        <label for="{{ variant.id }}">
+
+                            <input type="radio" 
+                                {% if variant.compare_at_price > variant.price %}
+                                    data-compare-at-price="{{ variant.compare_at_price | money_without_trailing_zeros }}"
+                                {% endif %} 
+                                data-price="{{ variant.price | money_without_trailing_zeros }}" 
+                                data-image="{% if variant.featured_image %} {{ variant.featured_image | image_url: width: 700 }} {% endif %}"
+                                id="{{ variant.id }}" 
+                                value="{{ variant.id }}" 
+                                name="id"
+                                {% if variant.selected or product.selected_or_first_available_variant %}
+                                    checked="checked"
+                                {% endif %}
+                                {% if found_available_variant == false %}
+                                    {% assign found_available_variant = true %} 
+                                {% endif %} 
+                            />
+
+                            <span class="variant-name">
+                                {{ variant.title }}
+                            </span>
+
+                        </label>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+    {% endif %}
+
+</div>

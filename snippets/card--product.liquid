@@ -1,0 +1,29 @@
+{% comment %}Is this product on sale?{% endcomment %}
+{% assign on_sale = false %}
+{% if product.compare_at_price > product.price %}
+  {% assign on_sale = true %}
+{% endif %}
+
+<li class="product-card {% unless product.available %} sold-out{% endunless %}{% if on_sale %} on-sale{% endif %}" onclick="window.location='{{ product.url }}';">
+
+  <div class="image">
+
+    <div class="product-info">
+      <div class="title">{{ product.title }}</div>
+      <div class="price">
+        {% if product.price_min < product.price_max %}
+          {{ product.price_min | money_without_trailing_zeros }} - {{ product.price_max |  money_without_trailing_zeros }}
+        {% else %}
+          {{ product.price | money_without_trailing_zeros }}
+        {% endif %}
+      </div>
+    </div>
+
+    {% if on_sale %}
+      <div class="on-sale">{{ 'Sale' | escape }}</div>
+    {% endif %}
+
+    <img src="{{ product | image_url: width: 800 }}" alt="{{ product.featured_image.alt | escape }}" width="100%" height="100%" />
+  </div>
+  
+</li>

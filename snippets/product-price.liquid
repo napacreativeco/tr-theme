@@ -1,0 +1,17 @@
+<div id="product-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+  <meta itemprop="priceCurrency" content="{{ shop.currency }}" />
+  {% if product.available %}
+  <link itemprop="availability" href="http://schema.org/InStock" />
+  {% else %}
+  <link itemprop="availability" href="http://schema.org/OutOfStock" />
+  {% endif %}
+  <p>
+    {% assign variant = product.selected_or_first_available_variant %}
+    {% if product.compare_at_price > product.price %}
+      <span class="product-price on-sale" itemprop="price">{{ variant.price | money_without_trailing_zeros }}</span>
+      <s class="product-compare-price">{{ variant.compare_at_price | money_without_trailing_zeros }}</s>
+    {% else %}
+      <span class="product-price" itemprop="price">{{ variant.price | money_without_trailing_zeros }}</span>
+    {% endif %}
+  </p>
+</div>

@@ -1,0 +1,102 @@
+.cart-drawer {
+
+    .item {
+
+        .item-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 14px;
+        }
+
+        .left {
+            position: relative;
+
+            img {
+                width: 100%;
+                display: block;
+                object-fit: cover;
+                object-position: center center;
+            }
+
+            .remove-item {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                text-transform: uppercase;
+                border: var(--border-white);
+                border-radius: 50px;
+                background: var(--black);
+                transition: all 0.5s ease-in-out;
+                font-size: 10px;
+                padding: 4px;
+                opacity: 0;
+            }
+
+            .remove-item:hover {
+                border: var(--border-green);
+                background: var(--green);
+                color: var(--black);
+            }
+        }
+
+        .left:hover {
+            .remove-item {
+                opacity: 1;
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 12px 0;
+
+            .title h2 {
+                color: var(--green);
+                margin: 0 0 10px 0;
+                text-transform: uppercase;
+            }
+
+            .info-bottom {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 8px;
+            }
+
+            .quantity-input {
+                display: inline-flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 6px;
+                border: var(--border-white);
+                border-radius: 50px;
+                padding: 4px 6px;
+
+                a {
+                    transition: color 0.5s ease-in-out;
+                }
+
+                a:hover {
+                    color: var(--green);
+                }
+            }
+
+            input[type="number"] {
+                background: transparent;
+                color: var(--white);
+                border: 0;
+                outline: 0;
+                text-align: center;
+                width: 30px;
+            }
+
+            input[type=number]::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+            }
+
+
+        }
+    }
+
+}

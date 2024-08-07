@@ -1,0 +1,76 @@
+<div class="cart-drawer--wrapper">
+
+    <span href="javascript:void" class="cart-drawer--close">
+      {% render 'icon--close' %}
+    </span>
+
+    <div class="cart-drawer--header">
+      <h3 class="cart-title">{{ section.settings.title | default: 'Cart' }}</h3>
+    </div>    
+
+    <form action="{{ routes.cart_url }}" method="post" class="my-cart">
+        <div class="cart-section" data-ajax-cart-section>
+
+          <div class="upper">
+            {% if cart.items.size > 0 %}
+              <ul class="cart-items" data-ajax-cart-section-scroll>
+                {% for item in cart.items %}
+                  {% render 'card--cart-drawer', item: item, forloop: forloop %}
+                {% endfor %}
+              </ul>
+            {% else %}
+                  
+              <div class="cart-drawer-empty">
+                {{ settings.cart_empty_text | default: 'Your cart is empty' }}
+              </div>
+  
+            {% endif %}
+          </div>
+
+          <div class="lower">
+            <div class="cart-total">
+                <div class="total-label">
+                  {{ 'Subtotal' | escape }}
+                </div>
+                <div>
+                  {{ cart.total_price | money_without_trailing_zeros }}
+                </div>
+            </div>
+      
+            <button type="submit" name="checkout">
+              {{ 'Checkout' | escape }}
+            </button> 
+
+            <div class="view-cart">
+              <a href="{{ routes.cart_url }}" title="View Cart" class="view-cart--link">{{ 'Edit Cart' | escape }}</a>
+            </div>
+          </div>
+
+        </div>
+    </form>
+
+</div>
+
+{% schema %}
+  {
+    "name": "Cart Drawer",
+    "tag": "section",
+    "class": "cart-drawer",
+    "limit": 1,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Cart Drawer"
+      }
+    ],
+    "enabled_on": {
+      "templates": ["*"]
+    }
+  }
+{% endschema %}
