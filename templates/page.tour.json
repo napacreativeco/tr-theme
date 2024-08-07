@@ -10,6 +10,27 @@
 {
   "wrapper": "div.tour-page",
   "sections": {
+    "tour_hero_yYGdnQ": {
+      "type": "tour-hero",
+      "blocks": {
+        "slide_c6kBdA": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/blur-1.jpg",
+            "slide_title": "THE PGA PRO TOUR",
+            "slide_text": "<p>SUPPORTING ULTRAGHOST, MISSION TO TACOBELL<\/p>",
+            "slide_dates": "SEPT. 12 – OCT. 23",
+            "slide_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_c6kBdA"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
     "tours": {
       "type": "tour",
       "blocks": {
@@ -64,10 +85,14 @@
       }
     },
     "extras": {
-      "type": "tour-extras"
+      "type": "tour-extras",
+      "settings": {
+        "empty_field": ""
+      }
     }
   },
   "order": [
+    "tour_hero_yYGdnQ",
     "tours",
     "tour_PNyfd7",
     "extras"
