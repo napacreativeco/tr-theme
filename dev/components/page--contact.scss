@@ -1,3 +1,36 @@
 .contact-page {
-    
+    padding: 60px var(--side-padding) 40px var(--side-padding);
+
+    .contact-title {
+        h1 {
+            font-size: 28px;
+            color: var(--green);
+        }
+    }
+
+    .contact-list {
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            border-bottom: var(--border-white);
+            padding: 20px 0 10px 0;
+
+            right {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                gap: 10px;
+            }
+
+            a {
+                transition: color 0.5s ease-in-out;
+            }
+
+            a:hover {
+                color: var(--green);
+            }
+        }
+    }
 }

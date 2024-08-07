@@ -1,0 +1,65 @@
+{{ 'component--social-media.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .social-media-icons {
+        justify-content: {{ alignment }};
+    }
+</style>
+
+<ul class="social-media-icons">
+
+    {% if settings.instagram %}
+        <li class="instagram">
+            <a href="{{ settings.instagram }}" title="{{ shop.name }} on Instagram">{% render 'icon--instagram' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.facebook %}
+        <li class="facebook">
+            <a href="{{ settings.facebook }}" title="{{ shop.name }} on Facebook">{% render 'icon--facebook' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.twitter %}
+        <li class="twitter">
+            <a href="{{ settings.twitter }}" title="{{ shop.name }} on Twitter">{% render 'icon--twitter' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.bandcamp %}
+        <li class="bandcamp">
+            <a href="{{ settings.bandcamp }}" title="{{ shop.name }} on Bandcamp">{% render 'icon--bandcamp' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.spotify %}
+        <li class="spotify">
+            <a href="{{ settings.spotify }}" title="{{ shop.name }} on Spotify">{% render 'icon--spotify' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.apple %}
+        <li class="apple-music">
+            <a href="{{ settings.apple }}" title="{{ shop.name }} on Apple Music">{% render 'icon--apple' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.youtube %}
+        <li class="youtube">
+            <a href="{{ settings.youtube }}" title="{{ shop.name }} on YouTube">{% render 'icon--youtube' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.tidal %}
+        <li class="tidal">
+            <a href="{{ settings.tidal }}" title="{{ shop.name }} on Tidal">{% render 'icon--tidal' %}</a>
+        </li>
+    {% endif %}
+
+    {% if settings.twitch %}
+        <li class="twitch">
+            <a href="{{ settings.twitch }}" title="{{ shop.name }} on Twitch">{% render 'icon--twitch' %}</a>
+        </li>
+    {% endif %}
+
+</ul>

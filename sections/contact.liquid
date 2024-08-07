@@ -4,6 +4,34 @@
     <h1>{{ section.settings.title | default: 'Contact us' }}</h1>
 </div>
 
+<ul class="contact-list">
+    {% for block in section.blocks %}
+        <li class="contact">
+            <div class="left">
+                <h2 class="type">
+                    {{ block.settings.contact_type }}
+                </h2>
+            </div>
+            <div class="right">
+                {% if block.settings.contact_agent %}
+                    <div class="agent">
+                        {{ block.settings.contact_agent }}
+                    </div>
+                {% endif %}
+                <div class="value">
+                    <a href="{{ block.settings.contact_url }}" title="{{ block.settings.contact_type }}">
+                        {{ block.settings.contact_value }}
+                    </a>
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+
+<div class="social-media-container">
+    {% render 'social-media-icons', alignment: 'center' %}
+</div>
+
 {% schema %}
     {
       "name": "Contact Page",

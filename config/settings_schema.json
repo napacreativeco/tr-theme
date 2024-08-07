@@ -11,11 +11,52 @@
     ]
   },
   {
-    "name": "Example setting",
+    "name": "Social Media",
     "settings": [
       {
-        "type": "header",
-        "content": "Example option"
+        "type": "url",
+        "id": "instagram",
+        "label": "Instagram"
+      },
+      {
+        "type": "url",
+        "id": "facebook",
+        "label": "Facebook"
+      },
+      {
+        "type": "url",
+        "id": "twitter",
+        "label": "Twitter"
+      },
+      {
+        "type": "url",
+        "id": "bandcamp",
+        "label": "Bandcamp"
+      },
+      {
+        "type": "url",
+        "id": "spotify",
+        "label": "Spotify"
+      },
+      {
+        "type": "url",
+        "id": "apple",
+        "label": "Apple Music"
+      },
+      {
+        "type": "url",
+        "id": "youtube",
+        "label": "YouTube"
+      },
+      {
+        "type": "url",
+        "id": "tidal",
+        "label": "Tidal"
+      },
+      {
+        "type": "url",
+        "id": "twitch",
+        "label": "Twitch"
       }
     ]
   }
