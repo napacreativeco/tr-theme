@@ -214,6 +214,20 @@
                 }
             }
         }
+
+        .checkout-buttons {
+            margin: 30px 0 20px 0;
+            
+            input[type="submit"] {
+                font-size: 28px;
+            }
+        }
+
+        .cart-details {
+            .subtotal {
+                font-size: 18px;
+            }
+        }
     }
 
 }
