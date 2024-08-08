@@ -1,0 +1,86 @@
+{{ 'component--social-media-labels.css' | asset_url | stylesheet_tag }}
+
+<ul class="social-media-icons-labeled">
+
+    {% if settings.instagram %}
+        <li class="instagram">
+            <a href="{{ settings.instagram }}" title="{{ shop.name }} on Instagram">
+                {% render 'icon--instagram' %}
+                <span>{{ 'Instagram' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.facebook %}
+        <li class="facebook">
+            <a href="{{ settings.facebook }}" title="{{ shop.name }} on Facebook">
+                {% render 'icon--facebook' %}
+                <span>{{ 'Facebook' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.twitter %}
+        <li class="twitter">
+            <a href="{{ settings.twitter }}" title="{{ shop.name }} on Twitter">
+                {% render 'icon--twitter' %}
+                <span>{{ 'Twitter' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.bandcamp %}
+        <li class="bandcamp">
+            <a href="{{ settings.bandcamp }}" title="{{ shop.name }} on Bandcamp">
+                {% render 'icon--bandcamp' %}
+                <span>{{ 'Bandcamp' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.spotify %}
+        <li class="spotify">
+            <a href="{{ settings.spotify }}" title="{{ shop.name }} on Spotify">
+                {% render 'icon--spotify' %}
+                <span>{{ 'Spotify' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.apple %}
+        <li class="apple-music">
+            <a href="{{ settings.apple }}" title="{{ shop.name }} on Apple Music">
+                {% render 'icon--apple' %}
+                <span>{{ 'Apple Music' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.youtube %}
+        <li class="youtube">
+            <a href="{{ settings.youtube }}" title="{{ shop.name }} on YouTube">
+                {% render 'icon--youtube' %}
+                <span>{{ 'YouTube' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.tidal %}
+        <li class="tidal">
+            <a href="{{ settings.tidal }}" title="{{ shop.name }} on Tidal">
+                {% render 'icon--tidal' %}
+                <span>{{ 'Tidal' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+    {% if settings.twitch %}
+        <li class="twitch">
+            <a href="{{ settings.twitch }}" title="{{ shop.name }} on Twitch">
+                {% render 'icon--twitch' %}
+                <span>{{ 'Twitch' | escape }}</span>
+            </a>
+        </li>
+    {% endif %}
+
+</ul>
