@@ -192,6 +192,12 @@
     
                 .remove-item {
                     .desktop { display: none; }
+                    .mobile {
+                        svg {
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
                 }
             }
         }
