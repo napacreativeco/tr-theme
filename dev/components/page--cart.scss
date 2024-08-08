@@ -197,6 +197,10 @@
                         svg {
                             width: 10px;
                             height: 10px;
+
+                            path {
+                                stroke: var(--white);
+                            }
                         }
                     }
                 }
