@@ -105,7 +105,11 @@
     .cart-drawer {
         .item {
             .item-wrapper {
-                grid-template-columns: 1fr 2fr;
+                grid-template-columns: 2fr 3fr;
+            }
+
+            .right {
+                padding: 0;
             }
         }
     }
