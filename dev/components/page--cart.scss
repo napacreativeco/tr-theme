@@ -193,7 +193,10 @@
                 .remove-item {
                     .desktop { display: none; }
                     .mobile {
-                        display: block;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        aspect-ratio: 1/1;
                         svg {
                             width: 10px;
                             height: 10px;
