@@ -124,23 +124,27 @@
                 grid-template-columns: 1fr 4fr 1fr 1fr;
                 grid-gap: 10px;
                 align-items: center;
+            }
 
-                .title {
-                    display: none;
-                }
+            .date {
+                font-size: 16px;
+            }
 
-                .city {
+            .title {
+                display: none;
+            }
+
+            .city {
+                font-size: 12px;
+            }
+
+            .flier {
+                font-size: 12px;
+            }
+
+            .tickets {
+                a {
                     font-size: 12px;
-                }
-
-                .flier {
-                    font-size: 12px;
-                }
-
-                .tickets {
-                    a {
-                        font-size: 12px;
-                    }
                 }
             }
         }
