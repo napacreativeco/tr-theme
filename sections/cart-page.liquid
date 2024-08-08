@@ -1,0 +1,48 @@
+{{ 'page--cart.css' | asset_url | stylesheet_tag }}
+
+
+
+    <div class="page-header">
+        <h1>Shopping Cart</h1>
+    </div>
+
+    {% if cart.item_count > 0 %}
+
+    <form action="/cart" method="post">
+
+        <div data-ajax-cart-section>
+
+            <ul data-ajax-cart-section-scroll>
+                {% for item in cart.items %}    
+                    {% render 'card--cart', item: item, cart: cart, forloop: forloop, routes: routes %}
+                {% endfor %}
+            </ul>
+            
+            <div class="cart-details">
+                <div class="subtotal">
+                    <div class="left"><h3>Subtotal</h3></div>
+                    <div class="right">{{ cart.total_price | money }}</div>
+                </div>
+            </div>
+        
+            <div class="checkout-buttons">
+                <input type="submit" name="checkout" value="Checkout" />    
+
+                {% comment %}Paypal and Google checkout buttons{% endcomment %}
+                {% if additional_checkout_buttons %}
+                    {{ content_for_additional_checkout_buttons }}
+                {% endif %}
+            </div>
+         
+
+        </div>
+
+    </form>
+
+    {% else %}
+
+        <h2>It appears that your cart is currently empty!</h2>
+        <h3>You can continue browsing <a href="/collections/all">here</a>.</h3>
+
+    {% endif %}
+

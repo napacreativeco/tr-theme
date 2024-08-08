@@ -9,6 +9,8 @@
     }
 
     .contact-list {
+        margin: 40px 0 0 0;
+        
         li {
             display: flex;
             flex-direction: row;
@@ -17,7 +19,13 @@
             border-bottom: var(--border-white);
             padding: 20px 0 10px 0;
 
-            right {
+            .left {
+                h2 {
+                    font-size: 24px;
+                }
+            }
+
+            .right {
                 display: flex;
                 flex-direction: row;
                 align-items: flex-end;

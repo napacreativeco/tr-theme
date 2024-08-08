@@ -21,6 +21,10 @@ header {
         text-transform: uppercase;
     }
 
+    li.active {
+        color: var(--green);
+    }
+
     .left {
 
         ul {

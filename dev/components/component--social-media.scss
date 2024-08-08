@@ -3,11 +3,13 @@
     flex-direction: row;
     align-items: center;
     // justify used with snippet
+    margin: 60px 0 20px 0;
+    gap: 10px;
 
     svg {
-        width: 12px;
-        height: 12px;
-        
+        width: 26px;
+        height: 26px;
+
         path {
             fill: var(--white);
             transition: fill 0.5s ease-in-out;
