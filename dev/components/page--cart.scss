@@ -171,6 +171,11 @@
     
     .cart-page {
         .item {
+
+            .item-wrapper {
+                grid-template-columns: 1fr;
+            }
+
             .left {
                 display: none;
             }
