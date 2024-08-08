@@ -41,7 +41,8 @@
         <div class="remove-holder">
             <div class="remove-item">
                 <a data-ajax-cart-request-button href="{{ routes.cart_change_url }}?line={{ forloop.index }}&quantity=0">
-                  {{ 'Remove' | escape }}
+                  <span class="desktop">{{ 'Remove' | escape }}</span>
+                  <span class="mobile">{% render 'icon--close' %}</span>
                 </a>
             </div>
         </div>
