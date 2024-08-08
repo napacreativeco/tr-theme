@@ -22,3 +22,17 @@ footer {
         text-transform: uppercase;
     }
 }
+
+@media screen and (max-width: 767px) {
+    footer {
+        ul {
+            gap: 14px;
+        }
+        a {
+            font-size: 10px;
+        }
+        .copyright {
+            font-size: 8px;
+        }
+    }
+}
