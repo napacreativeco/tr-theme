@@ -1,4 +1,4 @@
-header {
+header.desktop {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -95,4 +95,10 @@ header {
         color: var(--green);
     }
 
+}
+
+@media screen and (max-width: 767px) {
+    header.desktop {
+        display: none;
+    }
 }

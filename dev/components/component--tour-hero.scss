@@ -108,3 +108,25 @@
         border: var(--border-green);
     }
 }
+
+@media screen and (max-width: 767px) {
+    
+    .tour-hero--swiper {
+        .swiper-slide {
+            .overlay {
+                h2 {
+                    font-size: 26px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 14px;
+                    text-align: center;
+                }
+                h3 {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

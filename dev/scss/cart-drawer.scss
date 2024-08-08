@@ -5,7 +5,7 @@
     bottom: 10px;
     z-index: 99;
     width: 360px;
-    max-width: 40%;
+    max-width: 90%;
     background: rgb(60, 60, 60);
     border-radius: 30px;
     transition: right 0.5s ease-in-out;
@@ -121,4 +121,11 @@
 
 .js-my-cart-open .cart-drawer {
     right: 0%;
+}
+
+@media screen and (max-width: 767px) {
+    .cart-drawer {
+        width: 100%;
+        max-width: calc(100% - 20px);
+    }
 }

@@ -216,10 +216,29 @@
         }
     }
 
+    .overlay-image-holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     img {
         width: auto;
         max-width: 90%;
         height: auto;
         max-height: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product-page {
+        form {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+
+            .right {
+                padding: 0;
+            }
+        }
     }
 }

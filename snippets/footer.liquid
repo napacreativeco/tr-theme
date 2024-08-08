@@ -39,3 +39,19 @@
         });
     });
 </script>
+
+<script>
+    jQuery('.hamburger').on('click', function() {
+        jQuery('.header-overlay').css({
+            left: '0',
+            right: '0'
+        });
+    });
+
+    jQuery('.close-header-overlay').on('click', function() {
+        jQuery('.header-overlay').css({
+            left: '100%',
+            right: '-100%'
+        });
+    });
+</script>

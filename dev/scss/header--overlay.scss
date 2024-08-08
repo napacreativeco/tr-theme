@@ -1,0 +1,82 @@
+.header-overlay {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    bottom: 0px;
+    left: 100%;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background: var(--black);
+    transition: all 0.5s ease-in-out;
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: calc(100% - 20px);
+        //position: relative;
+    }
+
+    .close-header-overlay {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+        svg {
+            width: 40px;
+            height: 40px;
+
+            path {
+                stroke: var(--white);
+            }
+        }
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+        padding: 50px 20px 0 20px;
+        
+        svg {
+            width: 100%;
+            height: auto;
+            max-width: 70%;
+            fill: var(--white);
+        }
+    }
+
+    .middle {
+        padding: 20px;
+
+        nav {
+            margin-bottom: 20px;
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            li {
+                text-align: center;
+            }
+            a {
+                font-size: 34px;
+                text-align: center;
+            }
+        }
+    }
+
+    .bottom {
+        padding: 20px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+        }
+    }
+
+}

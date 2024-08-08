@@ -22,3 +22,9 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .social-media-icons {
+        justify-content: space-between !important;
+    }
+}

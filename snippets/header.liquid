@@ -1,4 +1,4 @@
-<header>
+<header class="desktop">
     <div class="header-row">
 
         <div class="left">
@@ -14,5 +14,21 @@
             {% render 'cart-count' %}
         </div>
 
+    </div>
+</header>
+
+<header class="mobile">
+    <div class="hamburger-holder">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="center">
+        <a href='/'>{% render 'logo' %}</a>
+    </div>
+    <div class="cart-holder">
+        {% render 'cart-count' %}
     </div>
 </header>

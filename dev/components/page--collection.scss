@@ -157,3 +157,26 @@
 .product-card:hover .image .product-info {
     opacity: 1;
 }
+
+@media screen and (max-width: 767px) {
+    .collection--row {
+        display: none;
+    }
+
+    .collection--column {
+        display: block;
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            grid-gap: 20px;
+        }
+    }
+
+    .collection-page {
+        .layout-switcher {
+            display: none;
+        }
+    }
+
+}

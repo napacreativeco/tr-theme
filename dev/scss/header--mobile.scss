@@ -1,0 +1,57 @@
+header.mobile {
+    display: none;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    padding: 10px var(--side-padding);
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+
+        span {
+            width: 50px;
+            height: 4px;
+            background: var(--white);
+        }
+    }
+
+    .center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        svg {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        svg path {
+            fill: var(--white);
+            transition: all 0.5s ease-in-out;
+        }
+
+        svg:hover path {
+            fill: var(--green);
+        }
+    }
+
+    .cart-count {
+        text-align: right;
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header.mobile {
+        display: grid;
+    }
+}
