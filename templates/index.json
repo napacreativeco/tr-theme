@@ -13,26 +13,89 @@
     "hero_MhDK3C": {
       "type": "hero",
       "blocks": {
-        "slider_prFrHE": {
+        "slider_YqkbeG": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/blur-1.jpg"
+            "slide_image": "shopify:\/\/shop_images\/20240511_93.jpg"
           }
         },
-        "slider_8CBjxA": {
+        "slider_j3dcFt": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/guitar.jpg"
+            "slide_image": "shopify:\/\/shop_images\/IMG_0625.png"
+          }
+        },
+        "slider_34WYyR": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_0630.png"
+          }
+        },
+        "slider_FAWYzL": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_6278.png"
+          }
+        },
+        "slider_B44Rhh": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_6312.png"
+          }
+        },
+        "slider_GQ6FjN": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_6343-2.png"
+          }
+        },
+        "slider_XBJW4T": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_8939.png"
+          }
+        },
+        "slider_mqKwxB": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/IMG_8958.png"
+          }
+        },
+        "slider_xdqyDA": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/traumaray-37.jpg"
+          }
+        },
+        "slider_94wbeD": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/traumarayrgd-24.jpg"
+          }
+        },
+        "slider_JejNJp": {
+          "type": "slider",
+          "settings": {
+            "slide_image": "shopify:\/\/shop_images\/traumarayrgd-31.jpg"
           }
         }
       },
       "block_order": [
-        "slider_prFrHE",
-        "slider_8CBjxA"
+        "slider_YqkbeG",
+        "slider_j3dcFt",
+        "slider_34WYyR",
+        "slider_FAWYzL",
+        "slider_B44Rhh",
+        "slider_GQ6FjN",
+        "slider_XBJW4T",
+        "slider_mqKwxB",
+        "slider_xdqyDA",
+        "slider_94wbeD",
+        "slider_JejNJp"
       ],
       "settings": {
         "title": "",
-        "hero_type": "Slideshow"
+        "hero_type": "GIF"
       }
     }
   },
