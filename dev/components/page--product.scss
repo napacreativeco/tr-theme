@@ -239,6 +239,20 @@
             .right {
                 padding: 0;
             }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .product-price {
+                font-size: 26px;
+            }
+
+            input[type="submit"] {
+                font-size: 20px;
+                padding: 8px 20px;
+            }
+
         }
     }
 }
