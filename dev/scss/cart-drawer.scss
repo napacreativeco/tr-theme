@@ -127,5 +127,15 @@
     .cart-drawer {
         width: 100%;
         max-width: calc(100% - 20px);
+
+        .cart-drawer--header {
+            font-size: 28px;
+        }
+
+        form {
+            button[type="submit"] {
+                font-size: 22px;
+            }
+        }
     }
 }
