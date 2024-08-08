@@ -41,8 +41,7 @@
 
     {% else %}
 
-        <h2>It appears that your cart is currently empty!</h2>
-        <h3>You can continue browsing <a href="/collections/all">here</a>.</h3>
+        <h2>{{ 'Your cart is empty.' | escape }}</h2>
 
     {% endif %}
 
