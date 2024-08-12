@@ -55,16 +55,6 @@
             "tickets": "https:\/\/seeticketsus.queue-it.net\/?c=seeticketsus&e=seeticketssafetynet&ver=v3-javascript-3.7.4&cver=1319&man=SeeTickets.us%20Safety%20Net&t=https%3A%2F%2Fwl.seetickets.us%2Fevent%2Fjrcg%2F609305%3Fafflky%3DSpuneProductions&kupver=cloudflare-1.2.3"
           }
         },
-        "tour_date_tNr4Kq": {
-          "type": "tour_date",
-          "settings": {
-            "date": "09.05",
-            "title": "Supporting Glare",
-            "city": "Paper Tiger - San Antonio, TX",
-            "flier": "shopify:\/\/shop_images\/blur-1.jpg",
-            "tickets": ""
-          }
-        },
         "tour_date_PftnLU": {
           "type": "tour_date",
           "settings": {
@@ -78,7 +68,6 @@
       },
       "block_order": [
         "tour_date_LkzCQy",
-        "tour_date_tNr4Kq",
         "tour_date_PftnLU"
       ],
       "settings": {
@@ -91,11 +80,11 @@
         "tour_date_HAEwqW": {
           "type": "tour_date",
           "settings": {
-            "date": "10.12",
-            "title": "Trauma Ray, Band name",
-            "city": "New York City, New York",
-            "flier": "shopify:\/\/shop_images\/guitar.jpg",
-            "tickets": ""
+            "date": "11.01",
+            "title": "Swirlies, Trauma Ray, Witches Exist",
+            "city": "Parish - Austin, TX",
+            "flier": "shopify:\/\/shop_images\/levitation.jpg",
+            "tickets": "https:\/\/wl.seetickets.us\/event\/Swirlies\/610342?afflky=LEVITATION"
           }
         }
       },
@@ -103,7 +92,7 @@
         "tour_date_HAEwqW"
       ],
       "settings": {
-        "tour_title": "Second Tour"
+        "tour_title": "Levitation 2024"
       }
     },
     "extras": {
