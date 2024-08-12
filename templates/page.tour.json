@@ -48,30 +48,41 @@
         "tour_date_LkzCQy": {
           "type": "tour_date",
           "settings": {
-            "date": "08.04",
-            "title": "Trauma Ray, Band name, Band name",
-            "city": "San Francisco, California",
-            "flier": "shopify:\/\/shop_images\/blur-1.jpg",
-            "tickets": ""
+            "date": "08.21",
+            "title": "Supporting JRCG",
+            "city": "Club DaDa -  Dallas, TX",
+            "flier": "shopify:\/\/shop_images\/jrgc-show.webp",
+            "tickets": "https:\/\/seeticketsus.queue-it.net\/?c=seeticketsus&e=seeticketssafetynet&ver=v3-javascript-3.7.4&cver=1319&man=SeeTickets.us%20Safety%20Net&t=https%3A%2F%2Fwl.seetickets.us%2Fevent%2Fjrcg%2F609305%3Fafflky%3DSpuneProductions&kupver=cloudflare-1.2.3"
           }
         },
         "tour_date_tNr4Kq": {
           "type": "tour_date",
           "settings": {
-            "date": "08.05",
-            "title": "Trauma Ray, Band name, Band name",
-            "city": "San Francisco, California",
+            "date": "09.05",
+            "title": "Supporting Glare",
+            "city": "Paper Tiger - San Antonio, TX",
             "flier": "shopify:\/\/shop_images\/blur-1.jpg",
             "tickets": ""
+          }
+        },
+        "tour_date_PftnLU": {
+          "type": "tour_date",
+          "settings": {
+            "date": "10.31",
+            "title": "Supporting Swirlies",
+            "city": "Rubber Gloves - Denton, TX",
+            "flier": "shopify:\/\/shop_images\/swirlies.jpg",
+            "tickets": "https:\/\/www.prekindle.com\/find-tickets\/id\/-2853509351795750310;jsessionid=966D587B149BA1AE6058167997C9790E?0"
           }
         }
       },
       "block_order": [
         "tour_date_LkzCQy",
-        "tour_date_tNr4Kq"
+        "tour_date_tNr4Kq",
+        "tour_date_PftnLU"
       ],
       "settings": {
-        "tour_title": "Headliner 2024"
+        "tour_title": ""
       }
     },
     "tour_PNyfd7": {
