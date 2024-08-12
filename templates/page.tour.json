@@ -83,7 +83,7 @@
             "date": "11.01",
             "title": "Swirlies, Trauma Ray, Witches Exist",
             "city": "Parish - Austin, TX",
-            "flier": "shopify:\/\/shop_images\/levitation.jpg",
+            "flier": "shopify:\/\/shop_images\/levitation_6b364fc8-0344-4439-945e-4a6456dec62a.jpg",
             "tickets": "https:\/\/wl.seetickets.us\/event\/Swirlies\/610342?afflky=LEVITATION"
           }
         }
@@ -113,10 +113,21 @@
             "flier": "shopify:\/\/shop_images\/okc.jpg",
             "tickets": "https:\/\/www.prekindle.com\/promo\/id\/-2853509351803517857"
           }
+        },
+        "tour_date_PD9A3d": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.06",
+            "title": "Panchiko, Trauma Ray",
+            "city": "The Truman, Kansas City, MO",
+            "flier": "shopify:\/\/shop_images\/kansas_city.jpg",
+            "tickets": "https:\/\/tix.axs.com\/yw%2fUNgAAAADjl%2bx9AAAAAAAa%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fDEFFRyBQcmVzZW50cwD%2f%2f%2f%2f%2f%2f%2f%2f%2f%2fw%3d%3d?locale=en-US&originalReferringURL=https%3A%2F%2Fwww.google.com%2F&preFill=1&eventid=599312&ec=TKC241106&src=AEGAXS1_WMAIN&fbShareURL=www.axs.com%2Fevents%2F599312%2Fpanchiko-tickets%3F%26ref%3Devs_fb&t_originalReferringURL=https%3A%2F%2Fwww.google.com%2F"
+          }
         }
       },
       "block_order": [
-        "tour_date_BTQ7wg"
+        "tour_date_BTQ7wg",
+        "tour_date_PD9A3d"
       ],
       "settings": {
         "tour_title": "Supporting Panchiko"
