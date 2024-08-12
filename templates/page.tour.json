@@ -100,12 +100,34 @@
       "settings": {
         "empty_field": ""
       }
+    },
+    "tour_NDQEXb": {
+      "type": "tour",
+      "blocks": {
+        "tour_date_BTQ7wg": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.03",
+            "title": "Panchiko, Trauma Ray",
+            "city": "Tower Theatre - Oklahoma City, OK",
+            "flier": "shopify:\/\/shop_images\/okc.jpg",
+            "tickets": "https:\/\/www.prekindle.com\/promo\/id\/-2853509351803517857"
+          }
+        }
+      },
+      "block_order": [
+        "tour_date_BTQ7wg"
+      ],
+      "settings": {
+        "tour_title": "Supporting Panchiko"
+      }
     }
   },
   "order": [
     "tour_hero_yYGdnQ",
     "tours",
     "tour_PNyfd7",
-    "extras"
+    "extras",
+    "tour_NDQEXb"
   ]
 }
