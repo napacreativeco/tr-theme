@@ -123,11 +123,22 @@
             "flier": "shopify:\/\/shop_images\/kansas_city.jpg",
             "tickets": "https:\/\/tix.axs.com\/yw%2fUNgAAAADjl%2bx9AAAAAAAa%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fDEFFRyBQcmVzZW50cwD%2f%2f%2f%2f%2f%2f%2f%2f%2f%2fw%3d%3d?locale=en-US&originalReferringURL=https%3A%2F%2Fwww.google.com%2F&preFill=1&eventid=599312&ec=TKC241106&src=AEGAXS1_WMAIN&fbShareURL=www.axs.com%2Fevents%2F599312%2Fpanchiko-tickets%3F%26ref%3Devs_fb&t_originalReferringURL=https%3A%2F%2Fwww.google.com%2F"
           }
+        },
+        "tour_date_pKwJKX": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.08",
+            "title": "Panchiko, Trauma Ray",
+            "city": "Old National Centre, Indianapolis, IN",
+            "flier": "shopify:\/\/shop_images\/panchiko_tour.jpg",
+            "tickets": "https:\/\/concerts.livenation.com\/panchiko-indianapolis-indiana-11-08-2024\/event\/050060CCB0D77AF4"
+          }
         }
       },
       "block_order": [
         "tour_date_BTQ7wg",
-        "tour_date_PD9A3d"
+        "tour_date_PD9A3d",
+        "tour_date_pKwJKX"
       ],
       "settings": {
         "tour_title": "Supporting Panchiko"
