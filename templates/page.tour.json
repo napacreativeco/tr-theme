@@ -13,6 +13,16 @@
     "tour_hero_yYGdnQ": {
       "type": "tour-hero",
       "blocks": {
+        "slide_YBN9tA": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/levitation-banner.png",
+            "slide_title": "Levitation Fest",
+            "slide_text": "<p>Swirlies, Trauma Ray, Witches Exist<\/p>",
+            "slide_dates": "Nov. 01",
+            "slide_link": "https:\/\/www.seetickets.us\/event\/Swirlies-Trauma-Ray-Witches-Exist\/610342"
+          }
+        },
         "slide_c6kBdA": {
           "type": "slide",
           "settings": {
@@ -25,6 +35,7 @@
         }
       },
       "block_order": [
+        "slide_YBN9tA",
         "slide_c6kBdA"
       ],
       "settings": {
