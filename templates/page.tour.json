@@ -133,12 +133,23 @@
             "flier": "shopify:\/\/shop_images\/panchiko_tour.jpg",
             "tickets": "https:\/\/concerts.livenation.com\/panchiko-indianapolis-indiana-11-08-2024\/event\/050060CCB0D77AF4"
           }
+        },
+        "tour_date_NeJYwN": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.09",
+            "title": "Panchiko, Trauma Ray",
+            "city": "The Intersection - Grand Rapids, MI",
+            "flier": "shopify:\/\/shop_images\/grand-rapids.jpg",
+            "tickets": "https:\/\/www.etix.com\/ticket\/p\/50721483\/panchiko-grand-rapids-the-intersection-elevation"
+          }
         }
       },
       "block_order": [
         "tour_date_BTQ7wg",
         "tour_date_PD9A3d",
-        "tour_date_pKwJKX"
+        "tour_date_pKwJKX",
+        "tour_date_NeJYwN"
       ],
       "settings": {
         "tour_title": "Supporting Panchiko"
