@@ -143,13 +143,24 @@
             "flier": "shopify:\/\/shop_images\/grand-rapids.jpg",
             "tickets": "https:\/\/www.etix.com\/ticket\/p\/50721483\/panchiko-grand-rapids-the-intersection-elevation"
           }
+        },
+        "tour_date_e969Je": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.10",
+            "title": "Panchiko, Trauma Ray",
+            "city": "Roxian Theatre - McKees Rocks, PA",
+            "flier": "shopify:\/\/shop_images\/panchiko_tour_c44668bf-e62b-4500-bd76-1b5bd10f8fee.jpg",
+            "tickets": "https:\/\/concerts.livenation.com\/panchiko-mc-kees-rocks-pennsylvania-11-10-2024\/event\/160060CEA5723971"
+          }
         }
       },
       "block_order": [
         "tour_date_BTQ7wg",
         "tour_date_PD9A3d",
         "tour_date_pKwJKX",
-        "tour_date_NeJYwN"
+        "tour_date_NeJYwN",
+        "tour_date_e969Je"
       ],
       "settings": {
         "tour_title": "Supporting Panchiko"
