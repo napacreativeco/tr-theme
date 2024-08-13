@@ -1,5 +1,15 @@
 {{ 'page--contact.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .contact-merch p {
+    text-align: center;
+  }
+
+  .contact-merch a {
+    color: var(--green);
+  }
+</style>
+
 <div class="contact-title">
     <h1>{{ section.settings.title | default: 'Contact us' }}</h1>
 </div>
@@ -30,6 +40,10 @@
 
 <div class="social-media-container">
     {% render 'social-media-icons--labels', alignment: 'center' %}
+</div>
+
+<div class="contact-merch">
+  <p>Email <a href="mailto:info@merchconnectioninc.com" title="Merch Connection">info@merchconnectioninc.com</a> with questions about store orders.</p>
 </div>
 
 {% schema %}
