@@ -4,6 +4,23 @@
 
 {{ 'page--product.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .product-page form .variants ul {
+    flex-wrap: wrap;
+  }
+  .product-page form li {
+    width: auto;
+  }
+  .product-page form .variants label {
+    aspect-ratio: auto;
+    padding: 10px;
+  }
+  .product-page form .variants label span {
+    white-space: nowrap;
+  }
+  
+</style>
+
 <div class="product-page" itemscope itemtype="http://schema.org/Product">
   
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}" />
