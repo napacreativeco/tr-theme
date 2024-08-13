@@ -163,6 +163,16 @@
             "flier": "shopify:\/\/shop_images\/panchiko-philly.jpg",
             "tickets": "https:\/\/www.axs.com\/events\/594128\/panchiko-tickets"
           }
+        },
+        "tour_date_ATHLMe": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.14",
+            "title": "Panchiko, Trauma Ray",
+            "city": "Toad's Place - New Haven, CT",
+            "flier": "shopify:\/\/shop_images\/panchiko_tour.jpg",
+            "tickets": "https:\/\/www.songkick.com\/concerts\/42020800-panchiko-at-toads-place?utm_source=11593&utm_medium=partner&utm_campaign=ticket-link&utm_content=10188581"
+          }
         }
       },
       "block_order": [
@@ -171,10 +181,41 @@
         "tour_date_pKwJKX",
         "tour_date_NeJYwN",
         "tour_date_e969Je",
-        "tour_date_pnnbdG"
+        "tour_date_pnnbdG",
+        "tour_date_ATHLMe"
       ],
       "settings": {
         "tour_title": "Supporting Panchiko"
+      }
+    },
+    "tour_CnRriL": {
+      "type": "tour",
+      "blocks": {
+        "tour_date_eUPhdK": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.29",
+            "title": "Trauma Ray",
+            "city": "The Roxy - Los Angeles, CA",
+            "tickets": "https:\/\/www.axs.com\/events\/651166\/trauma-ray-tickets"
+          }
+        },
+        "tour_date_3XqkYa": {
+          "type": "tour_date",
+          "settings": {
+            "date": "11.30",
+            "title": "Trauma Ray",
+            "city": "Voodoo Room - San Diego, CA",
+            "tickets": "https:\/\/www.ticketmaster.com\/event\/0A00610CD5C53074"
+          }
+        }
+      },
+      "block_order": [
+        "tour_date_eUPhdK",
+        "tour_date_3XqkYa"
+      ],
+      "settings": {
+        "tour_title": ""
       }
     }
   },
@@ -183,6 +224,7 @@
     "tours",
     "tour_PNyfd7",
     "extras",
-    "tour_NDQEXb"
+    "tour_NDQEXb",
+    "tour_CnRriL"
   ]
 }
