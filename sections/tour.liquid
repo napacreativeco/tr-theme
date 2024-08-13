@@ -22,14 +22,18 @@
                         {{ block.settings.city }}
                     </div>
                     <div class="flier">
+                      {% if block.settings.flier %}
                         <span class="flier-link" data-flier="{{ block.settings.flier | image_url: width: 900 }}" data-alt="{{ block.settings.flier.alt }}">
                             {{ 'Flier' | escape }}
                         </span>
+                      {% endif %}
                     </div>
                     <div class="tickets">
+                      {% if block.settings.tickets %}
                         <a href="{{ block.settings.tickets }}" title="{{ 'Tickets' | escape }}">
                             {{ 'Tickets' | escape }}
                         </a>
+                      {% endif %}
                     </div>
                 </li>
             {% endfor %}
