@@ -5,6 +5,9 @@
 {{ 'page--product.css' | asset_url | stylesheet_tag }}
 
 <style>
+  .product-page form {
+    grid-template-columns: 50% 50%;
+  }
   .product-page form .variants ul {
     flex-wrap: wrap;
   }
@@ -17,6 +20,18 @@
   }
   .product-page form .variants label span {
     white-space: nowrap;
+  }
+
+  .thumbnail-rack {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .thumbnail-rack img {
+    width: 100%;
+    max-width: 150px;
   }
   
 </style>
