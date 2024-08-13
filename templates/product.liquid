@@ -113,6 +113,19 @@
 
   </form>
 
+        
+    {% if product.images.size > 1 %}
+      <ul class="thumbnail-rack">
+        {% for image in product.images %}
+          <li>
+            <a href="{{ image | img_url: '1024x1024' }}">
+              <img src="{{ image | img_url: 'large' }}" alt="{{ image.alt | escape }}" />
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
 </div>
 
 <div class="image-overlay">
