@@ -42,6 +42,12 @@
         "title": ""
       }
     },
+    "extras": {
+      "type": "tour-extras",
+      "settings": {
+        "empty_field": ""
+      }
+    },
     "bandsintown_rPeDAm": {
       "type": "bandsintown",
       "settings": {
@@ -51,6 +57,7 @@
   },
   "order": [
     "tour_hero_yYGdnQ",
+    "extras",
     "bandsintown_rPeDAm"
   ]
 }
