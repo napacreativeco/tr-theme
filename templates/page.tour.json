@@ -16,21 +16,21 @@
         "slide_YBN9tA": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/levitation-banner.png",
+            "background_image": "shopify://shop_images/levitation-banner.png",
             "slide_title": "Levitation Fest",
-            "slide_text": "<p>Swirlies, Trauma Ray, Witches Exist<\/p>",
+            "slide_text": "<p>Swirlies, Trauma Ray, Witches Exist</p>",
             "slide_dates": "Nov. 01",
-            "slide_link": "https:\/\/www.seetickets.us\/event\/Swirlies-Trauma-Ray-Witches-Exist\/610342"
+            "slide_link": "https://www.seetickets.us/event/Swirlies-Trauma-Ray-Witches-Exist/610342"
           }
         },
         "slide_c6kBdA": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/banner.png",
+            "background_image": "shopify://shop_images/banner.png",
             "slide_title": "Panchiko, Trauma Ray",
             "slide_text": "",
             "slide_dates": "NOV. 03 - NOV. 12",
-            "slide_link": "https:\/\/www.instagram.com\/p\/C8XTzRHAcKu\/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+            "slide_link": "https://www.instagram.com/p/C8XTzRHAcKu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
           }
         }
       },
@@ -51,8 +51,8 @@
             "date": "08.21",
             "title": "Supporting JRCG",
             "city": "Club DaDa -  Dallas, TX",
-            "flier": "shopify:\/\/shop_images\/jrgc-show.webp",
-            "tickets": "https:\/\/seeticketsus.queue-it.net\/?c=seeticketsus&e=seeticketssafetynet&ver=v3-javascript-3.7.4&cver=1319&man=SeeTickets.us%20Safety%20Net&t=https%3A%2F%2Fwl.seetickets.us%2Fevent%2Fjrcg%2F609305%3Fafflky%3DSpuneProductions&kupver=cloudflare-1.2.3"
+            "flier": "shopify://shop_images/jrgc-show.webp",
+            "tickets": "https://seeticketsus.queue-it.net/?c=seeticketsus&e=seeticketssafetynet&ver=v3-javascript-3.7.4&cver=1319&man=SeeTickets.us%20Safety%20Net&t=https%3A%2F%2Fwl.seetickets.us%2Fevent%2Fjrcg%2F609305%3Fafflky%3DSpuneProductions&kupver=cloudflare-1.2.3"
           }
         },
         "tour_date_PftnLU": {
@@ -61,8 +61,8 @@
             "date": "10.31",
             "title": "Supporting Swirlies",
             "city": "Rubber Gloves - Denton, TX",
-            "flier": "shopify:\/\/shop_images\/swirlies.jpg",
-            "tickets": "https:\/\/www.prekindle.com\/find-tickets\/id\/-2853509351795750310;jsessionid=966D587B149BA1AE6058167997C9790E?0"
+            "flier": "shopify://shop_images/swirlies.jpg",
+            "tickets": "https://www.prekindle.com/find-tickets/id/-2853509351795750310;jsessionid=966D587B149BA1AE6058167997C9790E?0"
           }
         }
       },
@@ -83,8 +83,8 @@
             "date": "11.01",
             "title": "Swirlies, Trauma Ray, Witches Exist",
             "city": "Parish - Austin, TX",
-            "flier": "shopify:\/\/shop_images\/levitation_6b364fc8-0344-4439-945e-4a6456dec62a.jpg",
-            "tickets": "https:\/\/wl.seetickets.us\/event\/Swirlies\/610342?afflky=LEVITATION"
+            "flier": "shopify://shop_images/levitation_6b364fc8-0344-4439-945e-4a6456dec62a.jpg",
+            "tickets": "https://wl.seetickets.us/event/Swirlies/610342?afflky=LEVITATION"
           }
         }
       },
@@ -110,8 +110,8 @@
             "date": "11.03",
             "title": "Panchiko, Trauma Ray",
             "city": "Tower Theatre - Oklahoma City, OK",
-            "flier": "shopify:\/\/shop_images\/okc.jpg",
-            "tickets": "https:\/\/www.prekindle.com\/promo\/id\/-2853509351803517857"
+            "flier": "shopify://shop_images/okc.jpg",
+            "tickets": "https://www.prekindle.com/promo/id/-2853509351803517857"
           }
         },
         "tour_date_PD9A3d": {
@@ -120,8 +120,8 @@
             "date": "11.06",
             "title": "Panchiko, Trauma Ray",
             "city": "The Truman, Kansas City, MO",
-            "flier": "shopify:\/\/shop_images\/kansas_city.jpg",
-            "tickets": "https:\/\/tix.axs.com\/yw%2fUNgAAAADjl%2bx9AAAAAAAa%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fDEFFRyBQcmVzZW50cwD%2f%2f%2f%2f%2f%2f%2f%2f%2f%2fw%3d%3d?locale=en-US&originalReferringURL=https%3A%2F%2Fwww.google.com%2F&preFill=1&eventid=599312&ec=TKC241106&src=AEGAXS1_WMAIN&fbShareURL=www.axs.com%2Fevents%2F599312%2Fpanchiko-tickets%3F%26ref%3Devs_fb&t_originalReferringURL=https%3A%2F%2Fwww.google.com%2F"
+            "flier": "shopify://shop_images/kansas_city.jpg",
+            "tickets": "https://tix.axs.com/yw%2fUNgAAAADjl%2bx9AAAAAAAa%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fDEFFRyBQcmVzZW50cwD%2f%2f%2f%2f%2f%2f%2f%2f%2f%2fw%3d%3d?locale=en-US&originalReferringURL=https%3A%2F%2Fwww.google.com%2F&preFill=1&eventid=599312&ec=TKC241106&src=AEGAXS1_WMAIN&fbShareURL=www.axs.com%2Fevents%2F599312%2Fpanchiko-tickets%3F%26ref%3Devs_fb&t_originalReferringURL=https%3A%2F%2Fwww.google.com%2F"
           }
         },
         "tour_date_pKwJKX": {
@@ -130,8 +130,8 @@
             "date": "11.08",
             "title": "Panchiko, Trauma Ray",
             "city": "Old National Centre, Indianapolis, IN",
-            "flier": "shopify:\/\/shop_images\/panchiko_tour.jpg",
-            "tickets": "https:\/\/concerts.livenation.com\/panchiko-indianapolis-indiana-11-08-2024\/event\/050060CCB0D77AF4"
+            "flier": "shopify://shop_images/panchiko_tour.jpg",
+            "tickets": "https://concerts.livenation.com/panchiko-indianapolis-indiana-11-08-2024/event/050060CCB0D77AF4"
           }
         },
         "tour_date_NeJYwN": {
@@ -140,8 +140,8 @@
             "date": "11.09",
             "title": "Panchiko, Trauma Ray",
             "city": "The Intersection - Grand Rapids, MI",
-            "flier": "shopify:\/\/shop_images\/grand-rapids.jpg",
-            "tickets": "https:\/\/www.etix.com\/ticket\/p\/50721483\/panchiko-grand-rapids-the-intersection-elevation"
+            "flier": "shopify://shop_images/grand-rapids.jpg",
+            "tickets": "https://www.etix.com/ticket/p/50721483/panchiko-grand-rapids-the-intersection-elevation"
           }
         },
         "tour_date_e969Je": {
@@ -150,8 +150,8 @@
             "date": "11.10",
             "title": "Panchiko, Trauma Ray",
             "city": "Roxian Theatre - McKees Rocks, PA",
-            "flier": "shopify:\/\/shop_images\/panchiko_tour_c44668bf-e62b-4500-bd76-1b5bd10f8fee.jpg",
-            "tickets": "https:\/\/concerts.livenation.com\/panchiko-mc-kees-rocks-pennsylvania-11-10-2024\/event\/160060CEA5723971"
+            "flier": "shopify://shop_images/panchiko_tour_c44668bf-e62b-4500-bd76-1b5bd10f8fee.jpg",
+            "tickets": "https://concerts.livenation.com/panchiko-mc-kees-rocks-pennsylvania-11-10-2024/event/160060CEA5723971"
           }
         },
         "tour_date_pnnbdG": {
@@ -160,8 +160,8 @@
             "date": "11.12",
             "title": "Panchiko, Trauma Ray",
             "city": "Union Transfer - Philadelphia, PA",
-            "flier": "shopify:\/\/shop_images\/panchiko-philly.jpg",
-            "tickets": "https:\/\/www.axs.com\/events\/594128\/panchiko-tickets"
+            "flier": "shopify://shop_images/panchiko-philly.jpg",
+            "tickets": "https://www.axs.com/events/594128/panchiko-tickets"
           }
         },
         "tour_date_ATHLMe": {
@@ -170,8 +170,8 @@
             "date": "11.14",
             "title": "Panchiko, Trauma Ray",
             "city": "Toad's Place - New Haven, CT",
-            "flier": "shopify:\/\/shop_images\/panchiko_tour.jpg",
-            "tickets": "https:\/\/www.songkick.com\/concerts\/42020800-panchiko-at-toads-place?utm_source=11593&utm_medium=partner&utm_campaign=ticket-link&utm_content=10188581"
+            "flier": "shopify://shop_images/panchiko_tour.jpg",
+            "tickets": "https://www.songkick.com/concerts/42020800-panchiko-at-toads-place?utm_source=11593&utm_medium=partner&utm_campaign=ticket-link&utm_content=10188581"
           }
         }
       },
@@ -197,7 +197,7 @@
             "date": "11.29",
             "title": "Trauma Ray",
             "city": "The Roxy - Los Angeles, CA",
-            "tickets": "https:\/\/www.axs.com\/events\/651166\/trauma-ray-tickets"
+            "tickets": "https://www.axs.com/events/651166/trauma-ray-tickets"
           }
         },
         "tour_date_3XqkYa": {
@@ -206,7 +206,7 @@
             "date": "11.30",
             "title": "Trauma Ray",
             "city": "Voodoo Room - San Diego, CA",
-            "tickets": "https:\/\/www.ticketmaster.com\/event\/0A00610CD5C53074"
+            "tickets": "https://www.ticketmaster.com/event/0A00610CD5C53074"
           }
         }
       },
@@ -217,6 +217,12 @@
       "settings": {
         "tour_title": ""
       }
+    },
+    "bandsintown_rPeDAm": {
+      "type": "bandsintown",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -225,6 +231,7 @@
     "tour_PNyfd7",
     "extras",
     "tour_NDQEXb",
-    "tour_CnRriL"
+    "tour_CnRriL",
+    "bandsintown_rPeDAm"
   ]
 }
