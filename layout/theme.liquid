@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-  {{ 'index.css' | asset_url | stylesheet_tag }}
+  
 
   <!--[if lt IE 9]>
   {{ '//html5shiv.googlecode.com/svn/trunk/html5.js' | script_tag }}
@@ -113,6 +113,8 @@
       opacity: 0.8;
     }
   </style>
+
+  {{ 'index.css' | asset_url | stylesheet_tag }}
 </head>
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
