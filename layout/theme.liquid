@@ -54,30 +54,22 @@
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
 
     <style>
-    @font-face {
-        font-family: 'Averia Serif';
-        src: url('{{ "averiaserif-regular.woff2" | asset_url }}') format('woff2'),
-            url('{{ "averiaserif-regular.woff" | asset_url }}') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
+      @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
  
-
-    body, p, a {
-      font-family: 'Averia Serif' !important;
-    }
+      body, p, a {
+        font-family: "Averia Serif Libre", serif;
+      }
       
-    .background-image {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      opacity: 0.8;
-    }
-  </style>
+      .background-image {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.8;
+      }
+    </style>
   
   <div class="background-image" style="background: url('{{ settings.site_background | image_url: width: '2200' }}'); background-size: cover; background-position: center center;"></div>
   
