@@ -1,97 +1,67 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.homepage",
   "sections": {
     "hero_MhDK3C": {
       "type": "hero",
       "blocks": {
-        "slider_YqkbeG": {
+        "slider_Me6Gdn": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/20240511_93.jpg"
+            "slide_image": "shopify://shop_images/SCA00029-3.jpg"
           }
         },
-        "slider_j3dcFt": {
+        "slider_nPy4XX": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_0625.png"
+            "slide_image": "shopify://shop_images/SCA00033-2.jpg"
           }
         },
-        "slider_34WYyR": {
+        "slider_xjGBan": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_0630.png"
+            "slide_image": "shopify://shop_images/SCA00162-2.jpg"
           }
         },
-        "slider_FAWYzL": {
+        "slider_JfPJfT": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_6278.png"
+            "slide_image": "shopify://shop_images/SCA00179-3.jpg"
           }
         },
-        "slider_B44Rhh": {
+        "slider_rarEp6": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_6312.png"
+            "slide_image": "shopify://shop_images/SCA00195-3.jpg"
           }
         },
-        "slider_GQ6FjN": {
+        "slider_YCyfVD": {
           "type": "slider",
           "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_6343-2.png"
+            "slide_image": "shopify://shop_images/SCA00198-3-Enhanced-NR.jpg"
           }
         },
-        "slider_XBJW4T": {
+        "slider_NUQ4pz": {
           "type": "slider",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_8939.png"
-          }
-        },
-        "slider_mqKwxB": {
-          "type": "slider",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/IMG_8958.png"
-          }
-        },
-        "slider_xdqyDA": {
-          "type": "slider",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/traumaray-37.jpg"
-          }
-        },
-        "slider_94wbeD": {
-          "type": "slider",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/traumarayrgd-24.jpg"
-          }
-        },
-        "slider_JejNJp": {
-          "type": "slider",
-          "settings": {
-            "slide_image": "shopify:\/\/shop_images\/traumarayrgd-31.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
-        "slider_YqkbeG",
-        "slider_j3dcFt",
-        "slider_34WYyR",
-        "slider_FAWYzL",
-        "slider_B44Rhh",
-        "slider_GQ6FjN",
-        "slider_XBJW4T",
-        "slider_mqKwxB",
-        "slider_xdqyDA",
-        "slider_94wbeD",
-        "slider_JejNJp"
+        "slider_Me6Gdn",
+        "slider_nPy4XX",
+        "slider_xjGBan",
+        "slider_JfPJfT",
+        "slider_rarEp6",
+        "slider_YCyfVD",
+        "slider_NUQ4pz"
       ],
       "settings": {
         "title": "",
