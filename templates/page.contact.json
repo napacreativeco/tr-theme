@@ -39,12 +39,32 @@
             "contact_agent": "",
             "contact_url": "mailto:philippe@upsurgeartists.com"
           }
+        },
+        "contact_Wd8hKw": {
+          "type": "contact",
+          "settings": {
+            "contact_type": "Management",
+            "contact_value": "",
+            "contact_agent": "Michael Bingham",
+            "contact_url": "mailto:mikeb@polarizermgmt.com"
+          }
+        },
+        "contact_DMrDqX": {
+          "type": "contact",
+          "settings": {
+            "contact_type": "",
+            "contact_value": "",
+            "contact_agent": "Ryan Cunningham",
+            "contact_url": "mailto:ryanc@polarizermgmt.com"
+          }
         }
       },
       "block_order": [
         "contact_wU6beF",
         "contact_wHhLap",
-        "contact_qDzR8r"
+        "contact_qDzR8r",
+        "contact_Wd8hKw",
+        "contact_DMrDqX"
       ],
       "settings": {
         "title": ""
