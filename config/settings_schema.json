@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "Background",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "site_background",
+        "label": "Site Background Image",
+        "info": "The background image of the main website"
+      }
+    ]
+  },
+  {
     "name": "Social Media",
     "settings": [
       {
