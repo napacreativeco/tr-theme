@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.contact-page",
   "sections": {
@@ -17,23 +17,33 @@
           "type": "contact",
           "settings": {
             "contact_type": "Booking (US)",
-            "contact_value": "",
-            "contact_agent": "Matt Sandrin - Tour Peachy",
-            "contact_url": "mailto:msandrin@tourpeachy.com"
+            "contact_value": "Ground Control Touring",
+            "contact_agent": "Merrick Jarmulowicz",
+            "contact_url": "mailto:merrick@groundcontroltouring.com"
+          }
+        },
+        "contact_wHhLap": {
+          "type": "contact",
+          "settings": {
+            "contact_type": "",
+            "contact_value": "Ground Control Touring",
+            "contact_agent": "Rachel Scarbrough",
+            "contact_url": "mailto:rachel@groundcontroltouring.com"
           }
         },
         "contact_qDzR8r": {
           "type": "contact",
           "settings": {
-            "contact_type": "Booking (UK)",
-            "contact_value": "",
-            "contact_agent": "Troy Lusk - Tour Peachy",
-            "contact_url": "mailto:tlusk@tourpeachy.com"
+            "contact_type": "Booking (EU)",
+            "contact_value": "Philippe Van Leuven",
+            "contact_agent": "Upsurge Artists",
+            "contact_url": "mailto:philippe@upsurgeartists.com"
           }
         }
       },
       "block_order": [
         "contact_wU6beF",
+        "contact_wHhLap",
         "contact_qDzR8r"
       ],
       "settings": {
