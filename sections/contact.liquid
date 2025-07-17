@@ -21,7 +21,7 @@
 
 <ul class="contact-list">
     {% for block in section.blocks %}
-        <li class="contact" style="{% if block.settings.contact_type == blank %}border-bottom: 0px;{% endif %}">
+        <li class="contact" style="border-bottom: 0px; margin-bottom: 60px;">
             <div class="left">
                 <h2 class="type">
                     {{ block.settings.contact_type }}
