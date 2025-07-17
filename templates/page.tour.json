@@ -1,53 +1,15 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.tour-page",
   "sections": {
-    "tour_hero_yYGdnQ": {
-      "type": "tour-hero",
-      "blocks": {
-        "slide_YBN9tA": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify://shop_images/levitation-banner.png",
-            "slide_title": "Levitation Fest",
-            "slide_text": "<p>Swirlies, Trauma Ray, Witches Exist</p>",
-            "slide_dates": "Nov. 01",
-            "slide_link": "https://www.seetickets.us/event/Swirlies-Trauma-Ray-Witches-Exist/610342"
-          }
-        },
-        "slide_c6kBdA": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify://shop_images/banner.png",
-            "slide_title": "Panchiko, Trauma Ray",
-            "slide_text": "",
-            "slide_dates": "NOV. 03 - NOV. 12",
-            "slide_link": "https://www.instagram.com/p/C8XTzRHAcKu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-          }
-        }
-      },
-      "block_order": [
-        "slide_YBN9tA",
-        "slide_c6kBdA"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "extras": {
-      "type": "tour-extras",
-      "settings": {
-        "empty_field": ""
-      }
-    },
     "bandsintown_rPeDAm": {
       "type": "bandsintown",
       "settings": {
@@ -56,8 +18,6 @@
     }
   },
   "order": [
-    "tour_hero_yYGdnQ",
-    "extras",
     "bandsintown_rPeDAm"
   ]
 }
