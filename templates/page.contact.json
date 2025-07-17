@@ -17,7 +17,7 @@
           "type": "contact",
           "settings": {
             "contact_type": "Booking (US)",
-            "contact_value": "Ground Control Touring",
+            "contact_value": "",
             "contact_agent": "Merrick Jarmulowicz",
             "contact_url": "mailto:merrick@groundcontroltouring.com"
           }
@@ -26,7 +26,7 @@
           "type": "contact",
           "settings": {
             "contact_type": "",
-            "contact_value": "Ground Control Touring",
+            "contact_value": "",
             "contact_agent": "Rachel Scarbrough",
             "contact_url": "mailto:rachel@groundcontroltouring.com"
           }
@@ -36,7 +36,7 @@
           "settings": {
             "contact_type": "Booking (EU)",
             "contact_value": "Philippe Van Leuven",
-            "contact_agent": "Upsurge Artists",
+            "contact_agent": "",
             "contact_url": "mailto:philippe@upsurgeartists.com"
           }
         }
