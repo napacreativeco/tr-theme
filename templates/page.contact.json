@@ -31,15 +31,6 @@
             "contact_url": "mailto:rachel@groundcontroltouring.com"
           }
         },
-        "contact_7gwAYf": {
-          "type": "contact",
-          "settings": {
-            "contact_type": "",
-            "contact_value": "",
-            "contact_agent": "",
-            "contact_url": ""
-          }
-        },
         "contact_qDzR8r": {
           "type": "contact",
           "settings": {
@@ -47,15 +38,6 @@
             "contact_value": "Philippe Van Leuven",
             "contact_agent": "",
             "contact_url": "mailto:philippe@upsurgeartists.com"
-          }
-        },
-        "contact_x8nqUp": {
-          "type": "contact",
-          "settings": {
-            "contact_type": "",
-            "contact_value": "",
-            "contact_agent": "",
-            "contact_url": ""
           }
         },
         "contact_Wd8hKw": {
@@ -80,9 +62,7 @@
       "block_order": [
         "contact_wU6beF",
         "contact_wHhLap",
-        "contact_7gwAYf",
         "contact_qDzR8r",
-        "contact_x8nqUp",
         "contact_Wd8hKw",
         "contact_DMrDqX"
       ],
