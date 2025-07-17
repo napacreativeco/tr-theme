@@ -48,7 +48,12 @@
   {{ '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' | script_tag }}
   <script>jQuery('html').removeClass('no-js').addClass('js');</script>
 
-  <style>
+  {{ 'index.css' | asset_url | stylesheet_tag }}
+</head>
+
+<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
+
+    <style>
     @font-face {
         font-family: 'Averia Serif';
         src: url('{{ 'AveriaSerif-Regular.woff2' | asset_url }}') format('woff2'),
@@ -113,12 +118,7 @@
       opacity: 0.8;
     }
   </style>
-
-  {{ 'index.css' | asset_url | stylesheet_tag }}
-</head>
-
-<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
-
+  
   <div class="background-image" style="background: url('{{ settings.site_background | image_url: width: '2200' }}'); background-size: cover; background-position: center center;"></div>
   
   <div class="grain"></div>
