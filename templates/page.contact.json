@@ -31,6 +31,10 @@
             "contact_url": "mailto:rachel@groundcontroltouring.com"
           }
         },
+        "spacer_eJnkYh": {
+          "type": "spacer",
+          "settings": {}
+        },
         "contact_qDzR8r": {
           "type": "contact",
           "settings": {
@@ -39,6 +43,10 @@
             "contact_agent": "",
             "contact_url": "mailto:philippe@upsurgeartists.com"
           }
+        },
+        "spacer_6C9PjF": {
+          "type": "spacer",
+          "settings": {}
         },
         "contact_Wd8hKw": {
           "type": "contact",
@@ -62,7 +70,9 @@
       "block_order": [
         "contact_wU6beF",
         "contact_wHhLap",
+        "spacer_eJnkYh",
         "contact_qDzR8r",
+        "spacer_6C9PjF",
         "contact_Wd8hKw",
         "contact_DMrDqX"
       ],
