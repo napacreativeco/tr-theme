@@ -52,6 +52,8 @@
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
 
+  <div class="background-image" style="background: url('{{ settings.site_background | image_url: width: '2200' }}'); background-size: cover; background-position: center center;"></div>
+  
   <div class="grain"></div>
 
   {% render 'header' %}
