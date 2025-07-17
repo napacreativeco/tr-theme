@@ -15,7 +15,7 @@
   }
 
   .contact-page .contact-list li {
-    padding: 0 0 4px 0;
+    padding: 0 0 8px 0;
   }
 </style>
 
@@ -34,14 +34,11 @@
             <div class="right">
                 {% if block.settings.contact_agent %}
                     <div class="agent">
+                      <a href="{{ block.settings.contact_url }}" title="{{ block.settings.contact_type }}">
                         {{ block.settings.contact_agent }}
+                      </a>
                     </div>
                 {% endif %}
-                <div class="value">
-                    <a href="{{ block.settings.contact_url }}" title="{{ block.settings.contact_type }}">
-                        {{ block.settings.contact_value }}
-                    </a>
-                </div>
             </div>
         </li>
     {% endfor %}
