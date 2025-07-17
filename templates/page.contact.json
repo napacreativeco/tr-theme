@@ -39,8 +39,8 @@
           "type": "contact",
           "settings": {
             "contact_type": "Booking (EU)",
-            "contact_value": "Philippe Van Leuven",
-            "contact_agent": "",
+            "contact_value": "",
+            "contact_agent": "Philippe Van Leuven",
             "contact_url": "mailto:philippe@upsurgeartists.com"
           }
         },
