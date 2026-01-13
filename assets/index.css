@@ -131,22 +131,7 @@ table {
     margin-top: 0;
     color: inherit;
 }
-:root {
-    --white: #ffffff;
-    --black: rgb(30, 30, 30);
-    --green: #ed2528;
-    --side-padding: 24px;
-    --border-white: 1px solid var(--white);
-    --border-green: 1px solid var(--green);
-    --body-font: "Averia Serif", serif;
-    --header-font: "Averia Serif", serif;
-    --header-font-size: 28px;
-}
-@media screen and (max-width: 767px) {
-    :root {
-        --side-padding: 10px;
-    }
-}
+
 body {
     background: var(--black);
     color: var(--white);
