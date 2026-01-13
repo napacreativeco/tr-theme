@@ -11,6 +11,16 @@
     ]
   },
   {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "accent_color",
+        "label": "Accent Color"
+      }
+    ]
+  },
+  {
     "name": "Background",
     "settings": [
       {
