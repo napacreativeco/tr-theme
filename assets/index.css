@@ -3,3 +3,7 @@
 a:hover, p:hover, li:hover, h1:hover, h2:hover, h3:hover, h4:hover {
   color: #ed2528 !important;
 }
+
+header.desktop .center svg:hover path {
+  fill: #ed2528 !important;
+}
