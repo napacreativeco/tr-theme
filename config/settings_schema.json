@@ -16,7 +16,8 @@
       {
         "type": "color",
         "id": "accent_color",
-        "label": "Accent Color"
+        "label": "Accent Color",
+        "default": "#ed2528"
       }
     ]
   },
