@@ -56,6 +56,24 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
  
+      :root {
+        --white: #ffffff;
+        --black: rgb(30, 30, 30);
+        --green: #ed2528;
+        --side-padding: 24px;
+        --border-white: 1px solid var(--white);
+        --border-green: 1px solid var(--green);
+        --body-font: "Averia Serif", serif;
+        --header-font: "Averia Serif", serif;
+        --header-font-size: 28px;
+      }
+
+      @media screen and (max-width: 767px) {
+          :root {
+              --side-padding: 10px;
+          }
+      }
+
       body, p, a {
         font-family: "Averia Serif Libre", serif !important;
       }
