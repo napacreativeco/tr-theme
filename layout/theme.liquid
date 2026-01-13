@@ -59,7 +59,7 @@
       :root {
         --white: #ffffff;
         --black: rgb(30, 30, 30);
-        --green: #ed2528;
+        --green: {{ settings.accent_color | default: '#ed2528' }};
         --side-padding: 24px;
         --border-white: 1px solid var(--white);
         --border-green: 1px solid var(--green);
