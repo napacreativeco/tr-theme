@@ -12,63 +12,7 @@
   "sections": {
     "hero_MhDK3C": {
       "type": "hero",
-      "blocks": {
-        "slider_Me6Gdn": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00029-3.jpg"
-          }
-        },
-        "slider_nPy4XX": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00033-2.jpg"
-          }
-        },
-        "slider_xjGBan": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00162-2.jpg"
-          }
-        },
-        "slider_JfPJfT": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00179-3.jpg"
-          }
-        },
-        "slider_rarEp6": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00195-3.jpg"
-          }
-        },
-        "slider_YCyfVD": {
-          "type": "slider",
-          "disabled": true,
-          "settings": {
-            "slide_image": "shopify://shop_images/SCA00198-3-Enhanced-NR.jpg"
-          }
-        },
-        "slider_NUQ4pz": {
-          "type": "slider",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "slider_Me6Gdn",
-        "slider_nPy4XX",
-        "slider_xjGBan",
-        "slider_JfPJfT",
-        "slider_rarEp6",
-        "slider_YCyfVD",
-        "slider_NUQ4pz"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "hero_type": "GIF"
